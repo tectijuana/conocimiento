@@ -11,7 +11,7 @@ This document provides detailed instructions for students preparing and submitti
 Each student must create a personal directory within the `/submissions` folder following this exact structure:
 
 ```
-submissions/
+submissions/unitXYZ
 └── lastname-firstname/
     ├── research-paper.md
     ├── references.md
