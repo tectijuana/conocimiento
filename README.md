@@ -1,8 +1,8 @@
-# Knowledge Management in Computer Engineering
+# Knowledge Management in ITICS Engineering
 
 ## Course Context
 
-This repository serves as the centralized knowledge management system for the Computer Engineering program at Instituto Tecnológico de Tijuana. The primary objective is to foster a collaborative learning environment where students contribute to a comprehensive knowledge base through rigorous research, analysis, and documentation of advanced topics in computer engineering.
+This repository serves as the centralized knowledge management system for the ITICS  Engineering program at Instituto Tecnológico de Tijuana. The primary objective is to foster a collaborative learning environment where students contribute to a comprehensive knowledge base through rigorous research, analysis, and documentation of advanced topics in computer engineering.
 
 ## Course Objectives
 
