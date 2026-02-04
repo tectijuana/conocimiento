@@ -11,13 +11,15 @@ This directory contains individual student research paper submissions for the kn
 ```
 submissions/
 ├── README.md (this file)
-├── Unit1
+├── unit1
 ├──--- lastname-firstname/
 │     ├── research-paper.md
 │     ├── references.md
 │     └── supplementary/
 │         └── [figures, diagrams, etc.]
 └──--- [additional student directories...]
+...
+...
 ```
 
 ---
@@ -29,6 +31,7 @@ submissions/
 Create a new directory following the naming convention:
 
 ```bash
+cd submissions/unitXYZ
 mkdir lastname-firstname
 cd lastname-firstname
 ```
@@ -158,7 +161,7 @@ git checkout -b your-name/your-topic
 ### 3. Create Your Directory and Files
 
 ```bash
-cd submissions
+cd submissions/unitXYZ
 mkdir lastname-firstname
 cd lastname-firstname
 # Create your research-paper.md and references.md files
