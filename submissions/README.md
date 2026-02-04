@@ -11,12 +11,13 @@ This directory contains individual student research paper submissions for the kn
 ```
 submissions/
 ├── README.md (this file)
-├── lastname-firstname/
-│   ├── research-paper.md
-│   ├── references.md
-│   └── supplementary/
-│       └── [figures, diagrams, etc.]
-└── [additional student directories...]
+├── Unit1
+├──--- lastname-firstname/
+│     ├── research-paper.md
+│     ├── references.md
+│     └── supplementary/
+│         └── [figures, diagrams, etc.]
+└──--- [additional student directories...]
 ```
 
 ---
