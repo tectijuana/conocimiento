@@ -1,91 +1,66 @@
-# Ingeniería del Conocimiento (TIC-1015)
-## Investigación Individual
-
-### Título de la investigación
-**[Escriba aquí el título exacto asignado]**
-
----
-
-### Estudiante
-**Nombre completo:**  
-[APELLIDOS, Nombre]
-
-### Docente
-[Nombre del docente]
-
-### Asignatura
+# Pull Request – Investigación Individual
 Ingeniería del Conocimiento (TIC-1015)
 
-### Institución
-Tecnológico Nacional de México
+---
+
+## Información del estudiante
+
+- **Nombre completo:**  
+- **Número de investigación asignada:**  
+- **Título de la investigación:**  
 
 ---
 
-## 1. Introducción
-Describa de manera clara el contexto del tema investigado, su importancia dentro de la Ingeniería del Conocimiento y el propósito general de este trabajo.
+## Descripción del Pull Request
+
+Explique brevemente qué contiene este Pull Request y confirme que corresponde **únicamente** a su investigación individual asignada.
 
 ---
 
-## 2. Objetivo
-### Objetivo general
-Redacte un objetivo claro, medible y alineado al tema asignado.
+## Estructura entregada
+
+Marque con una ❌ o ✅ según corresponda:
+
+- [ ] Carpeta individual con mi nombre
+- [ ] Archivo `README.md` usando el template oficial
+- [ ] Todas las secciones completas
+- [ ] Diagramas / imágenes incluidos correctamente (si aplica)
+- [ ] Referencias académicas incluidas
+- [ ] Redacción original (sin copiar contenido)
 
 ---
 
-## 3. Marco teórico
-Presente los conceptos fundamentales relacionados con el tema investigado.  
-Incluya definiciones, clasificaciones, modelos o enfoques teóricos relevantes.
+## Contenido académico verificado
+
+Confirme que su investigación cumple con lo siguiente:
+
+- [ ] Tema alineado al programa TIC-1015
+- [ ] Marco teórico fundamentado
+- [ ] Desarrollo claro y coherente
+- [ ] Análisis y conclusiones propias
+- [ ] Aporte explícito al repositorio
 
 ---
 
-## 4. Desarrollo
-Explique el tema en profundidad.  
-Puede incluir:
-- Comparaciones
-- Ejemplos aplicados
-- Diagramas conceptuales
-- Casos de uso
-- Tablas o esquemas
+## Observaciones para el docente (opcional)
 
-*(Si se incluyen imágenes o diagramas, deben estar dentro de la carpeta del proyecto y referenciados correctamente.)*
+Indique cualquier comentario relevante para la revisión académica.
 
 ---
 
-## 5. Análisis y discusión
-Analice la información presentada y discuta:
-- Ventajas y limitaciones
-- Aplicaciones reales
-- Impacto en la toma de decisiones o en sistemas computacionales
+## Declaración de originalidad
 
----
+Declaro que este trabajo es **original**, de mi autoría, y que todas las fuentes utilizadas han sido citadas correctamente.  
+Entiendo que el plagio total o parcial invalida la entrega.
 
-## 6. Conclusiones
-Presente conclusiones propias derivadas del análisis realizado.  
-No repetir el contenido anterior; sintetizar hallazgos.
-
----
-
-## 7. Aporte al repositorio
-Explique brevemente:
-- Qué aporta esta investigación al repositorio
-- Cómo puede ser reutilizada por otros estudiantes o cursos futuros
-
----
-
-## 8. Referencias
-Liste las fuentes consultadas en formato académico.  
-Ejemplo:
-
-- Autor, A. (Año). *Título del libro o artículo*. Editorial o URL.
-- Sitio web oficial, documentación técnica o artículo académico.
-
----
-
-## 9. Declaración de originalidad
-Declaro que esta investigación es de autoría propia y que las fuentes utilizadas han sido debidamente citadas.
-
-**Firma:**  
-[Nombre del estudiante]
-
+**Nombre del estudiante:**  
 **Fecha:**  
-[DD/MM/AAAA]
+
+---
+
+## Checklist final antes de enviar
+
+- [ ] Revisé ortografía y redacción
+- [ ] Mi Pull Request contiene **solo** mi investigación
+- [ ] El título del PR sigue el formato solicitado
+- [ ] No modifiqué archivos de otros compañeros
