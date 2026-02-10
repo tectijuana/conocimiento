@@ -58,4 +58,11 @@ La mayoría de las propuestas coinciden en la evaluación de los siguientes crit
 - d) El vocabulario utilizado para representar los conceptos y relaciones del dominio modelado.
 
 ## Bibliografía
-Ramos, E., Núñez, H., & Casañas, R. (s. f.). _Esquema para evaluar ontologías únicas para un dominio de conocimiento_. https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1690-75152009000100005
+- Brank, J., Grobelnik, M. y Mladenic, D. (2005). A Survey of Ontology Evaluation.
+- Brewster, C., Alani, H., Dasmahapatra, S. y Wilks, Y. (2004). Data driven ontology evaluation.
+- Burton-Jones, A., Storey, V., Sugumaran, V. y Ahluwalia, P. (2005). A Semiotic Metrics for Assessing the Quality of Ontologies.
+- Hartman, J., Spyns, P., Giboin, A., Maynard, D., Cuel, R., Suárez-Figueroa, M. y Sure, Y. (2005). Methods for Ontology Evaluation.
+- Lozano, A. (2002). Métrica de idoneidad de ontologías.
+- Obrst, L., Ashpole, B., Ceusters, W., Mani, I., Ray, S. y Smith, B. (2007). The evaluation of ontologies: Toward improved semantic interoperability.
+- Porzel, R. y Malaka, R. (2004). A Task-based Approach for Ontology Evaluation.
+- Ramos, E., Núñez, H., & Casañas, R. (s. f.). _Esquema para evaluar ontologías únicas para un dominio de conocimiento_. https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1690-75152009000100005
