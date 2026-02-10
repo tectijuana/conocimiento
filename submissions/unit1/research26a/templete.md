@@ -2,7 +2,7 @@
 ## Investigación Individual
 
 ### Título de la investigación
-**[Escriba aquí el título exacto asignado]**
+**Criterios de evaluacion de ontologías**
 
 ---
 
