@@ -24,7 +24,7 @@ Según Obrst y cols (2007), los criterios de evaluación a considerar son:
 - c) Grado de similitud con otras ontologías.
 - d) La compatibilidad para realizar razonamiento automático.
 
-En el enfoque presentado por (Porzel y Malaka, 2004) se evalúan tres aspectos: 
+El enfoque presentado por (Porzel y Malaka, 2004) se evalúan tres puntos: 
 - a) Alcance del vocabulario (uso de conceptos adecuados).
 - b) Taxonomías apropiadas.
 - c) Las relaciones semánticas (no taxonómicas). 
@@ -36,14 +36,14 @@ Burton-Jones y cols (2005), dicen que la calidad debe medirse evaluando:
 - c) Pragmática (utilidad de la ontología para los agentes que la usan). 
 - d) Calidad social (interacción entre la ontología y los agentes). La evaluación se lleva a cabo mediante un conjunto de métricas basadas en la teoría de la semiótica.
 
-Brank y cols (2005), realizan una revisión de técnicas de evaluación y concluyen que los criterios son: 
+Brank y cols (2005), realizan una revisión de técnicas de evaluación y concluyen con lo siguiente: 
 - a) Vocabulario (evaluación contra otras fuentes).
 - b) Jerarquía, taxonomía y relaciones semánticas.
 - c) Contexto de aplicación (rendimiento de las aplicaciones que usan las ontologías).
 - d) sintaxis (cumplir con los requerimientos del lenguaje utilizado).
 - e) Estructura, arquitectura y diseño (corroborar manualmente que los requerimientos preestablecidos se cumplan).
 
-El método ONTOMETRIC (Lozano-Tello, 2002) permite seleccionar entre un conjunto de ontologías aquellas que resulten más apropiadas, decidir cuál es la más idónea para ser utilizada en una aplicación. Los criterios de evaluación a considerar son: 
+El método ONTOMETRIC (Lozano-Tello, 2002) permite seleccionar entre un conjunto de ontologías aquellas que resulten más apropiadas. Los criterios de evaluación a considerar son: 
 - a) Contenido y organización.
 - b) Lenguaje utilizado para la codificación.
 - c) Metodología de desarrollo.
