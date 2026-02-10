@@ -14,9 +14,9 @@ Durante el proceso de evaluación, se definen y llevan a cabo un conjunto de pru
 ## Antedentes y enfoques de autores
 
 Para Brewster y cols (2004), las ontologías deben evaluarse: 
-a) Desde la perspectiva de los principios usados para su construcción (rigurosidad taxonómica).
-b) Su eficiencia en el contexto de una aplicación.
-c) La congruencia entre ella y el conocimiento del dominio. 
+- a) Desde la perspectiva de los principios usados para su construcción (rigurosidad taxonómica).
+- b) Su eficiencia en el contexto de una aplicación.
+- c) La congruencia entre ella y el conocimiento del dominio. 
 
 Según Obrst y cols (2007), los criterios de evaluación a considerar son: 
 - a) Representación de los individuos (consistencia y completitud del lenguaje usado para su modelado).
