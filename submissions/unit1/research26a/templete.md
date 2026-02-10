@@ -1,91 +1,127 @@
-# Ingeniería del Conocimiento (TIC-1015)
-## Investigación Individual
+Criterios de evaluación de ontologías
+Una ontología es una especificación formal y explícita de una conceptualización compartida, que se caracteriza por definir un vocabulario común que incluye además la interpretación de los conceptos básicos del dominio y sus relaciones. La utilización de las ontologías se ha ido incrementando cada vez más y su uso ya es común en diversas áreas.
 
-### Título de la investigación
-**Criterios de evaluacion de ontologías**
+En el proceso de evaluación se establecen y ejecutan un conjunto de pruebas y se analizan los resultados de éstas (Hartman, Spyns, Giboin, Maynard, Cuel, Suárez-Figueroa y Sure, 2005), considerando tres estados de las ontologías: premodelado, modelado y entregadas (delivery).
 
----
+a) Premodelado: se considera la revisión y evaluación de los materiales disponibles para la construcción de la ontología.
 
-### Estudiante
-**Nombre completo:**  
+b) Modelado: se comprueba la calidad de los significados y la consistencia y redundancia de los conceptos, utilizando otras ontologías disponibles y las preguntas de competencia y se evalúan los posibles errores sintácticos cometidos durante la codificación.
+
+c) La evaluación de ontologías entregadas (delivery) consiste en determinar su calidad, comparando contra otras ontologías diferentes pero equivalentes. Para ello se establece un conjunto de criterios cualitativos y cuantitativos, que se miden mediante un conjunto de métricas preestablecidas.
+
+Antedentes y enfoques de autores
+Para Brewster y cols (2004), las ontologías deben evaluarse: a) Desde la perspectiva de los principios usados para su construcción (rigurosidad taxonómica). b) Su eficiencia en el contexto de una aplicación. c) La congruencia entre ella y el conocimiento del dominio.
+
+Según Obrst y cols (2007), los criterios de evaluación a considerar son:
+
+a) Representación de los individuos (consistencia y completitud del lenguaje usado para su modelado).
+b) Rendimiento de las tareas que usan la ontología.
+c) Grado de similitud con otras ontologías.
+d) La compatibilidad para realizar razonamiento automático.
+En el enfoque presentado en (Porzel y Malaka, 2004) se evalúan tres aspectos:
+
+a) Alcance del vocabulario (uso de conceptos adecuados).
+b) Taxonomías apropiadas.
+c) Las relaciones semánticas (no taxonómicas).
+El esquema propuesto mide el rendimiento de una o varias ontologías utilizadas por una tarea específica.
+Para Burton-Jones y cols (2005), la calidad debe medirse evaluando:
+
+a) Sintaxis (cómo se aplican los componentes del lenguaje utilizado para codificar)
+b) Semántica (significado, claridad y consistencia de los términos).
+c) Pragmática (utilidad de la ontología para los agentes que la usan).
+d) Calidad social (interacción entre la ontología y los agentes). La evaluación se lleva a cabo mediante un conjunto de métricas basadas en la teoría de la semiótica.
+Brank y cols (2005), realizan una revisión de técnicas de evaluación y concluyen que los criterios que deben evaluarse son:
+
+a) Vocabulario (evaluación contra otras fuentes).
+b) Jerarquía, taxonomía y relaciones semánticas.
+c) Contexto de aplicación (rendimiento de las aplicaciones que usan las ontologías).
+d) sintaxis (cumplir con los requerimientos del lenguaje utilizado).
+e) Estructura, arquitectura y diseño (corroborar manualmente que los requerimientos preestablecidos se cumplan).
+El método ONTOMETRIC (Lozano-Tello, 2002) permite seleccionar entre un conjunto de ontologías aquellas que resulten más apropiadas y, en base a una medida cuantitativa, decidir cuál es la más idónea para ser utilizada en una aplicación. Los criterios de evaluación que considera son:
+
+a) Contenido y organización.
+b) Lenguaje utilizado para la codificación.
+c) Metodología de desarrollo.
+d) Herramientas de software usadas para construir y editar la ontología.
+e) Costo de construcción
+Criterios de evaluación
+La mayoría de las propuestas coinciden en la evaluación de los siguientes criterios:
+
+a) La rigurosidad taxonómica.
+b) El lenguaje utilizado para la codificación.
+c) El rendimiento de las aplicaciones o tareas que utilizan las ontologías.
+d) El vocabulario utilizado para representar los conceptos y relaciones del dominio modelado.
+Bibliografía
+Ramos, E., Núñez, H., & Casañas, R. (s. f.). Esquema para evaluar ontologías únicas para un dominio de conocimiento. https://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1690-75152009000100005
+
+Ingeniería del Conocimiento (TIC-1015)
+Investigación Individual
+Título de la investigación
+[Escriba aquí el título exacto asignado]
+
+Estudiante
+Nombre completo:
 Suastegui Blanco Mariana
 
-### Docente
+Docente
 Rene Solis Reyes
 
-### Asignatura
+Asignatura
 Ingeniería del Conocimiento (TIC-1015)
 
-### Institución
+Institución
 Tecnológico Nacional de México
 
----
+1. Introducción
+Describa de manera clara el contexto del tema investigado, su importancia dentro de la Ingeniería del Conocimiento y el propósito general de este trabajo.
 
-## 1. Introducción
+2. Objetivo
+Objetivo general
+Redacte un objetivo claro, medible y alineado al tema asignado.
 
-En la Ingeniería del Conocimiento, las ontologías representan una herramienta fundamental para la estructuración y representación formal del conocimiento dentro de un dominio específico. Estas permiten definir conceptos, relaciones y reglas que facilitan la interoperabilidad entre sistemas y el razonamiento automático. Debido a su creciente uso en áreas como los sistemas inteligentes, la web semántica y la gestión del conocimiento, resulta indispensable asegurar su calidad y correcta construcción.
+3. Marco teórico
+Presente los conceptos fundamentales relacionados con el tema investigado.
+Incluya definiciones, clasificaciones, modelos o enfoques teóricos relevantes.
 
----
+4. Desarrollo
+Explique el tema en profundidad.
+Puede incluir:
 
-## 2. Objetivo
-### Objetivo general
-Analizar los criterios de evaluación de ontologías propuestos en la literatura especializada, con el fin de comprender su importancia y aplicación dentro de la Ingeniería del Conocimiento.
+Comparaciones
+Ejemplos aplicados
+Diagramas conceptuales
+Casos de uso
+Tablas o esquemas
+(Si se incluyen imágenes o diagramas, deben estar dentro de la carpeta del proyecto y referenciados correctamente.)
 
----
+5. Análisis y discusión
+Analice la información presentada y discuta:
 
-## 3. Marco teórico
-Una ontología se define como una especificación formal y explícita de una conceptualización compartida, la cual establece un vocabulario común para un dominio determinado, incluyendo los conceptos, sus propiedades y las relaciones existentes entre ellos. Esta formalización permite que tanto personas como sistemas computacionales interpreten el conocimiento de manera consistente.
+Ventajas y limitaciones
+Aplicaciones reales
+Impacto en la toma de decisiones o en sistemas computacionales
+6. Conclusiones
+Presente conclusiones propias derivadas del análisis realizado.
+No repetir el contenido anterior; sintetizar hallazgos.
 
-El proceso de evaluación de ontologías puede realizarse en distintas etapas: premodelado, modelado y entrega. Durante el premodelado se revisan las fuentes de información disponibles; en el modelado se evalúan aspectos como la consistencia, redundancia y corrección sintáctica; mientras que en la etapa de entrega se compara la ontología con otras equivalentes mediante criterios cualitativos y cuantitativos.
+7. Aporte al repositorio
+Explique brevemente:
 
-Diversos autores han propuesto enfoques para la evaluación de ontologías, considerando aspectos como la rigurosidad taxonómica, el vocabulario utilizado, la semántica de los conceptos, el rendimiento en aplicaciones y la compatibilidad con el razonamiento automático.
+Qué aporta esta investigación al repositorio
+Cómo puede ser reutilizada por otros estudiantes o cursos futuros
+8. Referencias
+Liste las fuentes consultadas en formato académico.
+Ejemplo:
 
----
-
-## 4. Desarrollo
-La evaluación de ontologías puede abordarse desde múltiples perspectivas. Algunos autores, como Brewster et al. (2004), destacan la importancia de analizar los principios utilizados en su construcción y su congruencia con el conocimiento real del dominio. Otros enfoques, como el de Obrst et al. (2007), enfatizan la consistencia en la representación de individuos y el desempeño de las tareas que utilizan la ontología.
-
-Porzel y Malaka (2004) proponen evaluar el alcance del vocabulario, la adecuación de las taxonomías y las relaciones semánticas no taxonómicas. Por su parte, Burton-Jones et al. (2005) incorporan criterios basados en la semiótica, evaluando la sintaxis, semántica, pragmática y calidad social de la ontología.
-
-Asimismo, Brank et al. (2005) agrupan los criterios de evaluación en aspectos relacionados con el vocabulario, la estructura jerárquica, la sintaxis y el contexto de aplicación. Finalmente, el método ONTOMETRIC permite comparar ontologías de manera cuantitativa para seleccionar la más adecuada según una aplicación específica, considerando factores como el contenido, el lenguaje de codificación y el costo de desarrollo.
-
----
-
-## 5. Análisis y discusión
-La evaluación de ontologías permite identificar fortalezas y debilidades en su diseño, favoreciendo la construcción de modelos más robustos y reutilizables. Entre sus principales ventajas se encuentra la mejora en la calidad del conocimiento representado y el incremento en la eficiencia de los sistemas que las utilizan.
-
-Sin embargo, una limitación importante es que algunos criterios pueden resultar subjetivos o depender del contexto de aplicación. Además, la evaluación cuantitativa puede requerir herramientas especializadas y experiencia técnica. A pesar de ello, la correcta evaluación de ontologías tiene un impacto significativo en la toma de decisiones y en el desarrollo de sistemas computacionales confiables y escalables.
-
----
-
-## 6. Conclusiones
-La evaluación de ontologías permite identificar fortalezas y debilidades en su diseño, lo que contribuye a la creación de modelos más robustos y reutilizables. Entre sus principales ventajas está mejorar la calidad del conocimiento representado y aumentar la eficiencia de los sistemas que lo utilizan. Sin embargo, una limitación importante es que algunos criterios pueden ser subjetivos o dependientes del contexto de uso. Además, la evaluación cuantitativa puede requerir herramientas específicas y experiencia técnica. Sin embargo, la correcta evaluación de las ontologías tiene un impacto significativo en la toma de decisiones y el desarrollo de sistemas informáticos fiables y escalables.
-
-
----
-
-## 7. Aporte al repositorio
-Esta investigación aporta una síntesis clara y estructurada de los principales criterios de evaluación de ontologías, lo cual puede servir como material de consulta para estudiantes de Ingeniería del Conocimiento. Asimismo, puede ser reutilizada como referencia teórica en cursos relacionados con sistemas inteligentes, web semántica o modelado del conocimiento.
-
----
-
-## 8. Referencias
-
-- Brank, J., Grobelnik, M. y Mladenic, D. (2005). A Survey of Ontology Evaluation.
-- Brewster, C., Alani, H., Dasmahapatra, S. y Wilks, Y. (2004). Data driven ontology evaluation.
-- Burton-Jones, A., Storey, V., Sugumaran, V. y Ahluwalia, P. (2005). A Semiotic Metrics for Assessing the Quality of Ontologies.
-- Hartman, J., Spyns, P., Giboin, A., Maynard, D., Cuel, R., Suárez-Figueroa, M. y Sure, Y. (2005). Methods for Ontology Evaluation.
-- Lozano, A. (2002). Métrica de idoneidad de ontologías.
-- Obrst, L., Ashpole, B., Ceusters, W., Mani, I., Ray, S. y Smith, B. (2007). The evaluation of ontologies: Toward improved semantic interoperability.
-- Porzel, R. y Malaka, R. (2004). A Task-based Approach for Ontology Evaluation.
-
----
-
-## 9. Declaración de originalidad
+Autor, A. (Año). Título del libro o artículo. Editorial o URL.
+Sitio web oficial, documentación técnica o artículo académico.
+9. Declaración de originalidad
 Declaro que esta investigación es de autoría propia y que las fuentes utilizadas han sido debidamente citadas.
 
-**Firma:**  
-Mariana Suastegui Blanco
+Firma:
+[Nombre del estudiante]
 
-**Fecha:**  
-[10/02/2026]
+Fecha:
+[DD/MM/AAAA]
+
+llena estos datos sin que se vea IAizado
