@@ -40,6 +40,7 @@ Por ejemplo, en un proceso de producción:
 · Los "outputs" designan el resultado de la actividad y se transmiten a otros procesos.
 </p>
 
+---------------------------------------------------------------------------------
 <p align="justify">
 Fuente: Modelo IDEF0. Documento técnico sobre la modelización de procesos mediante la metodología IDEF0.
 Disponible en:
