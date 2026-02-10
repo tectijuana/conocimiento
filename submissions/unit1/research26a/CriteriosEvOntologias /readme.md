@@ -7,7 +7,7 @@ Durante el proceso de evaluación, se definen y llevan a cabo un conjunto de pru
 - a) Pre-modelado: Se considera revisión y evaluación de materiales disponibles para la construcción de ontologías.
 
 - b) Modelado: Se comprueba la calidad del significado y la coherencia y redundancia de los conceptos utilizando otras ontologías disponibles y se evalúan preguntas de competencia y posibles errores sintácticos durante la codificación.
-- 
+
 - c) La evaluación de las ontologías entregadas consiste en determinar su calidad comparándolas con otras ontologías diferentes pero equivalentes. Para ello se elabora un conjunto de criterios cualitativos y cuantitativos, que se miden mediante un conjunto de métricas predefinidas.
 
 
