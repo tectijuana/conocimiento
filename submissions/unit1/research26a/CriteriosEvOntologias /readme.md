@@ -4,9 +4,9 @@ Una ontología es una especificación formal y explícita de una conceptualizaci
 
 En el proceso de evaluación se establecen y ejecutan un conjunto de pruebas y se analizan los resultados de éstas (Hartman, Spyns, Giboin, Maynard, Cuel, Suárez-Figueroa y Sure, 2005), considerando tres estados de las ontologías: premodelado, modelado y entregadas (delivery).
 
-- a) La evaluación en estado de premodelado considera la revisión y evaluación de los materiales disponibles para la construcción de la ontología. 
+- a) Premodelado: se considera la revisión y evaluación de los materiales disponibles para la construcción de la ontología. 
 
-- b) En el modelado se comprueba la calidad de los significados y la consistencia y redundancia de los conceptos, utilizando otras ontologías disponibles y las preguntas de competencia; además, se evalúan los posibles errores sintácticos cometidos durante la codificación. 
+- b) Modelado: se comprueba la calidad de los significados y la consistencia y redundancia de los conceptos, utilizando otras ontologías disponibles y las preguntas de competencia y se evalúan los posibles errores sintácticos cometidos durante la codificación. 
 
 - c) La evaluación de ontologías entregadas (delivery) consiste en determinar su calidad, comparando contra otras ontologías diferentes pero equivalentes. Para ello se establece un conjunto de criterios cualitativos y cuantitativos, que se miden mediante un conjunto de métricas preestablecidas.
 
@@ -49,7 +49,7 @@ El método ONTOMETRIC (Lozano-Tello, 2002) permite seleccionar entre un conjunto
 - d) Herramientas de software usadas para construir y editar la ontología.
 - e) Costo de construcción
 
-## Criterios de evaluación
+## Criterios de evaluación 
 
 La mayoría de las propuestas coinciden en la evaluación de los siguientes criterios:
 - a) La rigurosidad taxonómica.
