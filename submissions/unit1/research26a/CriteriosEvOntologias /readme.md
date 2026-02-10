@@ -1,14 +1,15 @@
 # Criterios de evaluación de ontologías
 
-Una ontología es una especificación formal y explícita de una conceptualización compartida, que se caracteriza por definir un vocabulario común que incluye además la interpretación de los conceptos básicos del dominio y sus relaciones. La utilización de las ontologías se ha ido incrementando cada vez más y su uso ya es común en diversas áreas.
+Una ontología consiste en una descripción formal y clara de una conceptualización compartida, la cual se distingue por definir un vocabulario común que también incluye la interpretación de los conceptos fundamentales del ámbito y sus interrelaciones. El uso de ontologías ha aumentado notablemente y se ha vuelto habitual en diversas disciplinas.
 
-En el proceso de evaluación se establecen y ejecutan un conjunto de pruebas y se analizan los resultados de éstas (Hartman, Spyns, Giboin, Maynard, Cuel, Suárez-Figueroa y Sure, 2005), considerando tres estados de las ontologías: premodelado, modelado y entregadas (delivery).
+Durante el proceso de evaluación, se definen y llevan a cabo un conjunto de pruebas y se examinan los resultados de estas (Hartman, Spyns, Giboin, Maynard, Cuel, Suárez-Figueroa y Sure, 2005), tomando en cuenta tres fases de las ontologías: premodelado, modelado y entregadas (delivery).
 
-- a) Premodelado: se considera la revisión y evaluación de los materiales disponibles para la construcción de la ontología. 
+- a) Pre-modelado: Se considera revisión y evaluación de materiales disponibles para la construcción de ontologías.
 
-- b) Modelado: se comprueba la calidad de los significados y la consistencia y redundancia de los conceptos, utilizando otras ontologías disponibles y las preguntas de competencia y se evalúan los posibles errores sintácticos cometidos durante la codificación. 
+- b) Modelado: Se comprueba la calidad del significado y la coherencia y redundancia de los conceptos utilizando otras ontologías disponibles y se evalúan preguntas de competencia y posibles errores sintácticos durante la codificación.
+- 
+- c) La evaluación de las ontologías entregadas consiste en determinar su calidad comparándolas con otras ontologías diferentes pero equivalentes. Para ello se elabora un conjunto de criterios cualitativos y cuantitativos, que se miden mediante un conjunto de métricas predefinidas.
 
-- c) La evaluación de ontologías entregadas (delivery) consiste en determinar su calidad, comparando contra otras ontologías diferentes pero equivalentes. Para ello se establece un conjunto de criterios cualitativos y cuantitativos, que se miden mediante un conjunto de métricas preestablecidas.
 
 ## Antedentes y enfoques de autores
 
@@ -23,26 +24,26 @@ Según Obrst y cols (2007), los criterios de evaluación a considerar son:
 - c) Grado de similitud con otras ontologías.
 - d) La compatibilidad para realizar razonamiento automático.
 
-En el enfoque presentado en (Porzel y Malaka, 2004) se evalúan tres aspectos: 
+En el enfoque presentado por (Porzel y Malaka, 2004) se evalúan tres aspectos: 
 - a) Alcance del vocabulario (uso de conceptos adecuados).
 - b) Taxonomías apropiadas.
 - c) Las relaciones semánticas (no taxonómicas). 
 - El esquema propuesto mide el rendimiento de una o varias ontologías utilizadas por una tarea específica.
 
-Para Burton-Jones y cols (2005), la calidad debe medirse evaluando: 
+Burton-Jones y cols (2005), dicen que la calidad debe medirse evaluando: 
 - a) Sintaxis (cómo se aplican los componentes del lenguaje utilizado para codificar)
 - b) Semántica (significado, claridad y consistencia de los términos).
 - c) Pragmática (utilidad de la ontología para los agentes que la usan). 
 - d) Calidad social (interacción entre la ontología y los agentes). La evaluación se lleva a cabo mediante un conjunto de métricas basadas en la teoría de la semiótica.
 
-Brank y cols (2005), realizan una revisión de técnicas de evaluación y concluyen que los criterios que deben evaluarse son: 
+Brank y cols (2005), realizan una revisión de técnicas de evaluación y concluyen que los criterios son: 
 - a) Vocabulario (evaluación contra otras fuentes).
 - b) Jerarquía, taxonomía y relaciones semánticas.
 - c) Contexto de aplicación (rendimiento de las aplicaciones que usan las ontologías).
 - d) sintaxis (cumplir con los requerimientos del lenguaje utilizado).
 - e) Estructura, arquitectura y diseño (corroborar manualmente que los requerimientos preestablecidos se cumplan).
 
-El método ONTOMETRIC (Lozano-Tello, 2002) permite seleccionar entre un conjunto de ontologías aquellas que resulten más apropiadas y, en base a una medida cuantitativa, decidir cuál es la más idónea para ser utilizada en una aplicación. Los criterios de evaluación que considera son: 
+El método ONTOMETRIC (Lozano-Tello, 2002) permite seleccionar entre un conjunto de ontologías aquellas que resulten más apropiadas, decidir cuál es la más idónea para ser utilizada en una aplicación. Los criterios de evaluación a considerar son: 
 - a) Contenido y organización.
 - b) Lenguaje utilizado para la codificación.
 - c) Metodología de desarrollo.
