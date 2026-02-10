@@ -40,6 +40,54 @@ Por ejemplo, en un proceso de producción:
 · Los "outputs" designan el resultado de la actividad y se transmiten a otros procesos.
 </p>
 
+<h3>1.2 Ventajas del uso del IDEF0</h3>
+
+<p align="justify">
+Como ventajas del uso de IDEF0 para el análisis de procesos se consideran las siguientes:
+</p>
+
+<p align="justify">
+· La descomposición en niveles jerárquicos facilita la rapidez en la determinación del mapa de procesos y posibilita visualizar, al nivel más alto, las relaciones de cambio con los factores de éxito. Esto resulta de gran ayuda, especialmente en procesos de cambios radicales.
+</p>
+
+<p align="justify">
+· El remontar a contracorriente la cadena o flujo de inputs-outputs permite determinar fácilmente elementos que no agregan valor, o detectar limitaciones y cuellos de botella dentro del proceso (véase planificación regresiva).
+</p>
+
+<p align="justify">
+El IDEF0 se ha utilizado ampliamente en industrias como la aeroespacial, electrónica, farmacéutica y de bienes de consumo de rápido movimiento, demostrando su utilidad para el análisis, mejora y optimización de procesos organizacionales.
+</p>
+
+<h3>1.3 Cuándo se recomienda el uso del IDEF0</h3>
+
+<p align="justify">
+El uso del modelo IDEF0 se recomienda en las siguientes situaciones:
+</p>
+
+<p align="justify">
+· Cuando hay que preparar un modelo de proceso que facilite exactitud, detalle y claridad en la descripción.
+</p>
+
+<p align="justify">
+· Cuando el proceso posee cierta complejidad y los otros métodos de descripción darían lugar a diagramas confusos.
+</p>
+
+<p align="justify">
+· Cuando se trata de modelar una amplia gama de procesos distintos en un PDL (Process Description Language) consistente y con capacidades de metrización.
+</p>
+
+<p align="justify">
+· Cuando se posee cierto tiempo para trabajar y desarrollar una descripción o modelo completo y correcto del proceso.
+</p>
+
+<p align="justify">
+· En el flujo de proceso, el uso de IDEF0 se recomienda en los puntos de identificación y definición (con aspectos metrizables), así como en la comprensión y delimitación de aspectos de problemas que se plantean en el proceso, en la presentación de soluciones, y en la estandarización de las mejoras/cambios.
+
+</p>
+
+
+
+
 ---------------------------------------------------------------------------------
 <p align="justify">
 Fuente: Modelo IDEF0. Documento técnico sobre la modelización de procesos mediante la metodología IDEF0.
@@ -48,5 +96,7 @@ Disponible en:
 https://qualitasbiblo.wordpress.com/wp-content/uploads/2013/01/idef-0.pdf
 </a>
 </p>
+
+
 
 
