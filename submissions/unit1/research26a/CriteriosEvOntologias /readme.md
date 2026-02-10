@@ -119,9 +119,9 @@ La mayoría de las propuestas coinciden en la evaluación de los siguientes crit
 
 ## **5. Análisis y discusión**
 
-La evaluación de ontologías permite detectar errores y áreas de mejora en su diseño, lo que ayuda a crear modelos de conocimiento más claros y reutilizables. Una de sus principales ventajas es que contribuye a mejorar la calidad del conocimiento representado y a aumentar la eficiencia de los sistemas que hacen uso de estas ontologías.
+La evaluación de ontologías ayuda a encontrar fallos y puntos débiles en su diseño, lo que permite mejorar la claridad y la posibilidad de reutilizar el conocimiento. Una ventaja importante es que aumenta la calidad de la información representada y hace que los sistemas que usan esas ontologías trabajen de manera más eficiente.
 
-Sin embargo, también existen algunas limitaciones, ya que ciertos criterios de evaluación pueden ser subjetivos o depender del contexto en el que se aplique la ontología. Además, las evaluaciones cuantitativas suelen requerir herramientas especializadas y conocimientos técnicos específicos. Aun así, una evaluación adecuada tiene un impacto positivo en la toma de decisiones y en el desarrollo de sistemas computacionales más confiables.
+Por otro lado, también hay limitaciones: algunos criterios dependen mucho del contexto o pueden ser subjetivos, y las evaluaciones más técnicas suelen necesitar herramientas especializadas y conocimientos avanzados. Aun con esas dificultades, evaluar bien una ontología tiene un efecto positivo porque facilita mejores decisiones y contribuye al desarrollo de sistemas más confiables.
 
 ----------
 
