@@ -59,7 +59,8 @@ Sin embargo, una limitación importante es que algunos criterios pueden resultar
 ---
 
 ## 6. Conclusiones
-La evaluación de ontologías es un proceso esencial dentro de la Ingeniería del Conocimiento, ya que garantiza la calidad, coherencia y utilidad de los modelos de conocimiento. A través del análisis de distintos enfoques y criterios, se observa que no existe un único método de evaluación, sino un conjunto de criterios complementarios que deben aplicarse según el contexto y los objetivos de la ontología.
+La evaluación de ontologías permite identificar fortalezas y debilidades en su diseño, lo que contribuye a la creación de modelos más robustos y reutilizables. Entre sus principales ventajas está mejorar la calidad del conocimiento representado y aumentar la eficiencia de los sistemas que lo utilizan. Sin embargo, una limitación importante es que algunos criterios pueden ser subjetivos o dependientes del contexto de uso. Además, la evaluación cuantitativa puede requerir herramientas específicas y experiencia técnica. Sin embargo, la correcta evaluación de las ontologías tiene un impacto significativo en la toma de decisiones y el desarrollo de sistemas informáticos fiables y escalables.
+
 
 ---
 
