@@ -85,7 +85,7 @@ El enfoque presentado por (Porzel y Malaka, 2004) se evalúan tres puntos:
 - a) Alcance del vocabulario (uso de conceptos adecuados).
 - b) Taxonomías apropiadas.
 - c) Las relaciones semánticas (no taxonómicas). 
-- El esquema propuesto mide el rendimiento de una o varias ontologías utilizadas por una tarea específica.
+El esquema propuesto mide el rendimiento de una o varias ontologías utilizadas por una tarea específica.
 
 Burton-Jones y cols (2005), dicen que la calidad debe medirse evaluando: 
 - a) Sintaxis (cómo se aplican los componentes del lenguaje utilizado para codificar)
