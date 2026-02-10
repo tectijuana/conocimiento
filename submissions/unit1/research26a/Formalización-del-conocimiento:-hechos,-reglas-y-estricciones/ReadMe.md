@@ -42,13 +42,29 @@ Analizar el proceso de formalización del conocimiento mediante hechos, reglas y
 La formalización del conocimiento es el proceso mediante el cual el conocimiento adquirido de expertos humanos se expresa de manera estructurada y precisa, utilizando modelos formales que permitan su interpretación por sistemas computacionales.
 
 ### Hechos
-Los hechos representan afirmaciones básicas que describen una situación del mundo real y tienen un valor de verdad. En una base de conocimiento, los hechos constituyen la información elemental sobre la cual se realizan inferencias.
+
+-Un hecho es una verdad o afirmación básica sobre el mundo que tiene valor de verdad (por ejemplo, “Juan es mayor de edad”).
+
+-En representación computacional, los hechos suelen codificarse como elementos atómicos dentro de una base de conocimiento.
+
+En lógica formal, un hecho puede considerarse como una fórmula atómica, es decir, sin operadores lógicos complejos.
 
 ### Reglas
-Las reglas permiten relacionar hechos y generar nuevo conocimiento. Generalmente se expresan en forma condicional, del tipo “Si se cumple una condición, entonces se obtiene una conclusión”. Las reglas son fundamentales para el razonamiento automático.
+Las reglas son estructuras que conectan hechos o condiciones para derivar nuevas conclusiones.
+
+Se expresan comúnmente en forma del tipo:
+Si (condición) Entonces (conclusión), también notado como:
+
+P1 ∧ P2∧…∧Pn→Q 
+donde 𝑃𝑖 son premisas y 𝑄 la conclusión.
+
+Las reglas actúan como mecanismos de inferencia que permiten a un sistema derivar nuevos conocimientos a partir de hechos conocidos.
 
 ### Restricciones
-Las restricciones establecen límites o condiciones que deben cumplirse dentro de una base de conocimiento. Su objetivo es mantener la coherencia del sistema y evitar conclusiones incorrectas o contradictorias.
+
+Las restricciones son condiciones que limitan o controlan la derivación de conocimiento dentro del sistema.
+Por ejemplo, pueden evitar contradicciones al asegurar que ciertos hechos no se combinen con reglas que produzcan resultados inconsistentes.
+Las restricciones ayudan a garantizar que el conocimiento formalizado sea coherente y no dé lugar a conclusiones inválidas.
 
 ---
 
