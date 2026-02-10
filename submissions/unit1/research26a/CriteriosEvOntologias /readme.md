@@ -110,11 +110,10 @@ El método ONTOMETRIC (Lozano-Tello, 2002) permite seleccionar entre un conjunto
 ## Criterios de evaluación 
 
 La mayoría de las propuestas coinciden en la evaluación de los siguientes criterios:
-- a) La rigurosidad taxonómica.
-- b) El lenguaje utilizado para la codificación.
-- c) El rendimiento de las aplicaciones o tareas que utilizan las ontologías.
-- d) El vocabulario utilizado para representar los conceptos y relaciones del dominio modelado.
-
+- a) Rigurosidad taxonómica: se refiere a la correcta organización jerárquica de los conceptos, asegurando que las clasificaciones sean coherentes y sin contradicciones.
+- b) Lenguaje utilizado para la codificación: verifica que la ontología cumpla correctamente con las reglas del lenguaje utilizado para su desarrollo.
+- c) Rendimiento de las aplicaciones o tareas que utilizan las ontologías: analiza qué tan eficiente resulta la ontología cuando es utilizada en sistemas o tareas reales.
+- d) Vocabulario utilizado para representar los conceptos y relaciones del dominio modelado: revisa que los conceptos y relaciones representen de forma clara y correcta el conocimiento del dominio modelado.
 
 ----------
 
