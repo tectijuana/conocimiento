@@ -21,7 +21,7 @@ Explique brevemente qué contiene este Pull Request y confirme que corresponde *
 
 Marque con una ❌ o ✅ según corresponda:
 
-- [ ] Carpeta individual con mi nombre
+- [ ] Carpeta individual con nombre del tema sin espacion usar guión (puede mejorar redacción)
 - [ ] Archivo `README.md` usando el template oficial
 - [ ] Todas las secciones completas
 - [ ] Diagramas / imágenes incluidos correctamente (si aplica)
