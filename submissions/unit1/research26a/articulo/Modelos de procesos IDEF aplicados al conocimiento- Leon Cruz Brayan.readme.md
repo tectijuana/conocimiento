@@ -1,3 +1,6 @@
+
+<h1 align="center">Modelos IDEF aplicados al conocimiento</h1>
+
 <p align="justify">
 Los Modelos de Procesos IDEF aplicados al conocimiento forman parte de la familia de metodologías IDEF (Integration DEFinition), utilizadas para analizar, diseñar y mejorar procesos organizacionales. Cuando se aplican al conocimiento, permiten identificar cómo se crea, usa, comparte y gestiona la información dentro de una organización.
 </p>
