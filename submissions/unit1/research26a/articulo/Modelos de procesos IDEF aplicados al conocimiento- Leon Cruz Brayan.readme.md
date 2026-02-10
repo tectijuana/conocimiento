@@ -21,16 +21,22 @@ IDEF0 es ampliamente utilizado para describir procesos de negocio, atendiendo a 
 ![Diagrama IDEF0](diagrama_idef0.png)
 
 <p align="justify">
-Por ejemplo: en un proceso de producción:
-· Los "inputs" designan la materia prima que es transformada en la actividad (barra de
-acero a transformar en tubo, planos de trabajo.
-· Los "controles" designan las actividades o entidades que influencia la forma en que
-trabaja el proceso; p.ej.: cumplir normas de seguridad, responder a exigencias del
-cliente, ejecutar planes de trabajo. El control marca restricciones u obligaciones y dirige
-las actividades.
-· Los "mecanismos" designan los factores que permiten las operaciones desarrolladas en
-el proceso; p.ej.: personas, herramientas, software, información.
+Por ejemplo, en un proceso de producción:
+</p>
+
+<p align="justify">
+· Los "inputs" designan la materia prima que es transformada en la actividad (barra de acero a transformar en tubo, planos de trabajo).
+</p>
+
+<p align="justify">
+· Los "controles" designan las actividades o entidades que influyen en la forma en que trabaja el proceso; por ejemplo: cumplir normas de seguridad, responder a exigencias del cliente, ejecutar planes de trabajo. El control marca restricciones u obligaciones y dirige las actividades.
+</p>
+
+<p align="justify">
+· Los "mecanismos" designan los factores que permiten las operaciones desarrolladas en el proceso; por ejemplo: personas, herramientas, software, información.
+</p>
+
+<p align="justify">
 · Los "outputs" designan el resultado de la actividad y se transmiten a otros procesos.
-
-
+</p>
 
