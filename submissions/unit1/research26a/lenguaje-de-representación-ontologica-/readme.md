@@ -258,31 +258,3 @@ Iván Sepúlveda Velarde
 
 [](https://github.com/tectijuana/conocimiento/blob/main/.github/PULL_REQUEST_TEMPLATE.md#contenido-acad%C3%A9mico-verificado)
 
-## Estructura entregada
-
-[](https://github.com/tectijuana/conocimiento/blob/main/.github/PULL_REQUEST_TEMPLATE.md#estructura-entregada)
-
-Marque con una ❌ o ✅ según corresponda:
-
--   [✅]Carpeta individual con nombre del tema sin espacio usar guión (puede mejorar redacción)
--   [✅]Archivo  `README.md`  usando el template oficial
--   [✅]Todas las secciones completas
--   [✅]Diagramas / imágenes incluidos correctamente (si aplica)
--   [✅]Referencias académicas incluidas
--   [✅]Redacción original (sin copiar contenido)
-
-  Confirme que su investigación cumple con lo siguiente:
-
--  [✅]Tema alineado al programa TIC-1015
--   [✅]Marco teórico fundamentado
--   [✅]Desarrollo claro y coherente
--   [✅]Análisis y conclusiones propias
--   [✅]Aporte explícito al repositorio
-- ## Checklist final antes de enviar
-
-[](https://github.com/tectijuana/conocimiento/blob/main/.github/PULL_REQUEST_TEMPLATE.md#checklist-final-antes-de-enviar)
-
--   Revisé ortografía y redacción
--   [✅]Mi Pull Request contiene  **solo**  mi investigación
--   [✅]El título del PR sigue el formato solicitado
--   [✅]No modifiqué archivos de otros compañeros
