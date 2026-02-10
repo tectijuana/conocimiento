@@ -8,10 +8,10 @@
 
 ### Estudiante
 **Nombre completo:**  
-[APELLIDOS, Nombre]
+Suastegui Blanco Mariana
 
 ### Docente
-[Nombre del docente]
+Rene Solis Reyes
 
 ### Asignatura
 Ingeniería del Conocimiento (TIC-1015)
