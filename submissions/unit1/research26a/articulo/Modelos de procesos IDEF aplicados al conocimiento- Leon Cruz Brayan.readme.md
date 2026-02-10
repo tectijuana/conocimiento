@@ -9,7 +9,7 @@ Los Modelos de Procesos IDEF aplicados al conocimiento forman parte de la famili
 El modelo IDEF0 en el programa norteamericano del Departamento de Defensa denominado "Integrated Computer-Aided Manufacturing (ICAM)" ha reconocido su utilidad y se le ha estandarizado con el nombre IDEF0 (ICAM Definition Method Zero), pronunciado “eyedeff-zero”. Bajo esta denominación, la metódica SADT se utiliza en cientos de organizaciones relacionadas con la defensa y en industrias de alta tecnología. En 1989 se constituyó una asociación de usuarios denominada IDEF-Users Group (IDEF-UG).
 </p>
 
-<h3>¿En qué se utilizan?</h3>
+<h3> 1.1 ¿En qué se utilizan?</h3>
 
 <p align="justify">
 IDEF0 es ampliamente utilizado para describir procesos de negocio, atendiendo a los objetivos centrales, y existen numerosas aplicaciones de software que apoyan su desarrollo. Este modelo guía en la descripción de cada proceso o actividad considerada como la combinación de cinco magnitudes básicas que se representan gráficamente de la siguiente manera:
