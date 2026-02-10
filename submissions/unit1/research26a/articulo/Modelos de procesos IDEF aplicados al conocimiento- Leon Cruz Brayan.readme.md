@@ -18,4 +18,6 @@ IDEF0 es ampliamente utilizado para describir procesos de negocio, atendiendo a 
 5) Outputs o resultados conseguidos en el proceso (que podrán ser a su vez inputs o controles de otros procesos).
 </p>
 
+![Diagrama IDEF0](diagrama_idef0.png)
+
 
