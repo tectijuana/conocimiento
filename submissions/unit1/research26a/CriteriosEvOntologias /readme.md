@@ -45,11 +45,11 @@ Analizar los principales criterios de evaluación de ontologías propuestos por 
 
 ## **3. Marco teórico**
 
-Una ontología puede definirse como una forma de representar de manera formal y clara el conocimiento de un dominio específico, estableciendo un vocabulario común que incluye conceptos, propiedades y las relaciones que existen entre ellos. Esto permite que tanto las personas como los sistemas computacionales interpreten la información de manera consistente.
+Una ontología puede definirse como una forma de representar de manera formal y clara el conocimiento de un dominio específico, estableciendo un vocabulario común Una ontología se puede entender como una forma de representar el conocimiento de un área específica usando un vocabulario común que define conceptos, propiedades y relaciones. Esto ayuda a que tanto personas como sistemas interpreten la información de manera uniforme y sin confusiones.
 
-La evaluación de ontologías suele realizarse en diferentes etapas. En la etapa de premodelado se revisan las fuentes de información que se utilizarán para construir la ontología. Durante el modelado se evalúan aspectos como la consistencia de los conceptos, la posible redundancia y la corrección en la codificación. Finalmente, en la etapa de entrega, la ontología se compara con otras similares para determinar su calidad mediante distintos criterios y métricas.
+La evaluación de ontologías es importante porque asegura que el modelo sea útil y correcto. Normalmente se hace en tres etapas: en el premodelado se revisan las fuentes de información que servirán de base; en el modelado se analiza la coherencia de los conceptos, la ausencia de redundancias y la correcta codificación; y en la entrega se compara la ontología con otras similares para medir su calidad con criterios y métricas.
 
-Diversos autores han propuesto distintos enfoques para evaluar ontologías, considerando aspectos como la estructura taxonómica, el vocabulario utilizado, la claridad de los conceptos y el rendimiento de las aplicaciones que hacen uso de ellas.
+Varios autores han propuesto enfoques distintos. Brewster et al. (2004) hablan de la rigurosidad taxonómica, la eficiencia en aplicaciones y la congruencia con el dominio. Obrst et al. (2007) resaltan la representación de individuos, el rendimiento de tareas y la compatibilidad con razonamiento automático. Porzel y Malaka (2004) se enfocan en vocabulario, taxonomías y relaciones semánticas. Burton-Jones et al. (2005) proponen evaluar sintaxis, semántica, pragmática y calidad social. Brank et al. (2005) consideran vocabulario, jerarquías, contexto de aplicación y estructura. Finalmente, Lozano-Tello (2002) con ONTOMETRIC incluye criterios como contenido, lenguaje, metodología, herramientas y costo.
 
 ----------
 
