@@ -129,6 +129,42 @@ En las computadoras normales, un bit es 0 o 1. En computadoras cuánticas, un "q
 
 Aunque todavía estamos desarrollando computadoras cuánticas prácticas, la idea de Feynman abrió un campo completamente nuevo en la computación.
 
+### 4.6 Diagrama
+
+```mermaid
+flowchart TD
+    A[Antecedentes de la Ingenieria del Conocimiento]
+
+    A --> B[Inteligencia Artificial - Decada de 1950]
+    B --> B1[Alan Turing - Test de Turing 1950]
+    B --> B2[Conferencia de Dartmouth 1956]
+    B --> B3[Primeros programas simbolicos]
+
+    A --> C[Sistemas Expertos - Decada de 1970]
+    C --> C1[DENDRAL]
+    C --> C2[MYCIN]
+    C --> C3[Reglas IF-THEN]
+
+    A --> D[Representacion del Conocimiento]
+    D --> D1[Redes semanticas]
+    D --> D2[Frames]
+    D --> D3[Logica de predicados]
+
+    A --> E[Ingenieria del Software]
+    E --> E1[Metodologias estructuradas]
+    E --> E2[Ciclo de vida del software]
+    E --> E3[Modelado y documentacion]
+
+    A --> F[Formalizacion en los 80s y 90s]
+    F --> F1[Metodologia CommonKADS]
+    F --> F2[Modelado de conocimiento]
+    F --> F3[Enfoque sistematico]
+
+    A --> G[Ingenieria del Conocimiento]
+    G --> G1[Adquisicion de conocimiento]
+    G --> G2[Modelado]
+    G --> G3[Validacion e implementacion]
+```
 
 
 ---
