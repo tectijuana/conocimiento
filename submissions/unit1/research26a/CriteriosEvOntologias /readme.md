@@ -51,6 +51,8 @@ La evaluación de ontologías es importante porque asegura que el modelo sea út
 
 Varios autores han propuesto enfoques distintos. Brewster et al. (2004) hablan de la rigurosidad taxonómica, la eficiencia en aplicaciones y la congruencia con el dominio. Obrst et al. (2007) resaltan la representación de individuos, el rendimiento de tareas y la compatibilidad con razonamiento automático. Porzel y Malaka (2004) se enfocan en vocabulario, taxonomías y relaciones semánticas. Burton-Jones et al. (2005) proponen evaluar sintaxis, semántica, pragmática y calidad social. Brank et al. (2005) consideran vocabulario, jerarquías, contexto de aplicación y estructura. Finalmente, Lozano-Tello (2002) con ONTOMETRIC incluye criterios como contenido, lenguaje, metodología, herramientas y costo.
 
+*En el ámbito de la ingeniería del conocimiento, una ontología se entiende como una representación formal que define los conceptos relevantes de un dominio y las relaciones entre ellos. Según Gruber (1993), “una ontología es una especificación explícita y formal de una conceptualización compartida”. Esto implica que las ontologías proporcionan un vocabulario común y una estructura que facilita la interoperabilidad entre sistemas, la organización del conocimiento y la eliminación de ambigüedades.*
+
 ----------
 
 ## **4. Desarrollo**
