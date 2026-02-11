@@ -1,3 +1,6 @@
+<img width="800" height="106" alt="image" src="https://github.com/user-attachments/assets/2f754c40-e204-42c0-b851-e524bb815dbf" />
+
+
 # Pull Request – Investigación Individual
 Ingeniería del Conocimiento (TIC-1015)
 
@@ -21,7 +24,7 @@ Explique brevemente qué contiene este Pull Request y confirme que corresponde *
 
 Marque con una ❌ o ✅ según corresponda:
 
-- [ ] Carpeta individual con mi nombre
+- [ ] Carpeta individual con nombre del tema sin espacio usar guión (puede mejorar redacción)
 - [ ] Archivo `README.md` usando el template oficial
 - [ ] Todas las secciones completas
 - [ ] Diagramas / imágenes incluidos correctamente (si aplica)
