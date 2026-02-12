@@ -100,34 +100,113 @@ UML se utiliza como herramienta para representar gráficamente el conocimiento, 
 
   - Permite formalizar conceptos, procesos y relaciones en un sistema basado en conocimiento.
 
- Se usa como puente entre la representación conceptual y la implementación técnica.
+  - Se usa como puente entre la representación conceptual y la implementación técnica.
 
 
 ## 4.4. Diagramas UML más relevantes para el conocimiento
-  Diagramas de clases: representan conceptos, atributos y relaciones (útiles para ontologías).
+  **Diagramas de clases:** representan conceptos, atributos y relaciones (útiles para ontologías).
+  
+*Ejemplo:*
 
-  Diagramas de casos de uso: muestran cómo los actores interactúan con el sistema de conocimiento.
+<p align="center">Sistema de gestión de conocimiento médico</p>
 
-  Diagramas de secuencia: ilustran el flujo de información y razonamiento.
+```mermaid
+classDiagram
+    class Sintoma {
+        +nombre
+        +descripcion
+    }
 
-  Diagramas de actividad: modelan procesos de toma de decisiones o flujos de conocimiento.
+    class Diagnostico {
+        +nombre
+        +gravedad
+    }
+
+    class Tratamiento {
+        +nombre
+        +duracion
+    }
+
+    Sintoma --> Diagnostico : indica
+    Diagnostico --> Tratamiento : requiere
+```
+
+
+
+
+  **Diagramas de casos de uso:** muestran cómo los actores interactúan con el sistema de conocimiento.
+
+  *Ejemplo:*
+
+  <p align="center">Sistema de soporte a la decisión clínica</p>
+
+  ```mermaid
+flowchart LR
+    Doctor --> ConsultarSintomas
+    Doctor --> RegistrarDiagnostico
+    Doctor --> AsignarTratamiento
+```
+
+
+
+  **Diagramas de secuencia:** ilustran el flujo de información y razonamiento.
+
+  *Ejemplo:*
+  
+  <p align="center">Sistema experto médico</p>
+
+  ```mermaid
+  sequenceDiagram
+    participant Doctor
+    participant Sistema
+    participant BaseDeConocimiento
+
+    Doctor->>Sistema: Ingresa síntomas
+    Sistema->>BaseDeConocimiento: Consulta reglas
+    BaseDeConocimiento-->>Sistema: Devuelve diagnóstico
+    Sistema-->>Doctor: Muestra diagnóstico sugerido
+```
+
+  **Diagramas de actividad:** modelan procesos de toma de decisiones o flujos de conocimiento.
+
+*Ejemplo:*
+
+  <p align="center">Sistema de procesos clínicos</p>
+
+ ```mermaid
+flowchart TD
+    A[Paciente llega] --> B[Evaluar síntomas]
+    B --> C{¿Síntomas graves?}
+    C -- Sí --> D[Diagnóstico urgente]
+    C -- No --> E[Realizar estudios]
+    D --> F[Asignar tratamiento]
+    E --> F
+```
+
+
 
 ## 4.5. Ventajas de usar UML en este contexto
-  Estandarización: lenguaje reconocido internacionalmente.
 
-  Claridad visual: facilita la comprensión de estructuras abstractas.
+```mermaid
+  flowchart TD
+    UML[UML en el modelado del conocimiento] --> A[Estandarización]
+    UML --> B[Claridad visual]
+    UML --> C[Flexibilidad]
+    UML --> D[Integración]
 
-  Flexibilidad: se adapta a distintos dominios (software, procesos, conocimiento).
-
-  Integración: puede combinarse con metodologías de ingeniería del conocimiento como CommonKADS o con ontologías.
+    A --> A1[Lenguaje reconocido internacionalmente]
+    B --> B1[Facilita la comprensión de estructuras abstractas]
+    C --> C1[Se adapta a distintos dominios como: software, procesos, conocimiento]
+    D --> D1[Puede combinarse con metodologías de ingeniería del conocimiento como CommonKADS o con ontologías]
+```
 
 ## 4.6. Ejemplos de aplicación
 
- - Modelar una base de conocimiento médica con clases que representan síntomas, diagnósticos y tratamientos.
+ - *Modelar* una base de conocimiento médica con clases que representan síntomas, diagnósticos y tratamientos.
 
- - Representar procesos de inteligencia de negocios con diagramas de actividad.
+ - *Representar* procesos de inteligencia de negocios con diagramas de actividad.
 
- - Diseñar sistemas expertos mostrando reglas y relaciones mediante diagramas de clases.
+ - *Diseñar* sistemas expertos mostrando reglas y relaciones mediante diagramas de clases.
 
 ---
 
@@ -136,28 +215,24 @@ UML se utiliza como herramienta para representar gráficamente el conocimiento, 
 
 ### 5.1 Ventajas y limitaciones
 
-Ventajas:
+| Ventajas | Limitaciones |
+|----------|-------------|
+| Lenguaje visual estandarizado que facilita la comunicación entre expertos y desarrolladores. | Fue diseñado principalmente para el desarrollo de software, por lo que puede requerir adaptaciones en el modelado del conocimiento. |
+| Permite formalizar conceptos abstractos y representarlos de manera clara. | No siempre captura la semántica profunda del conocimiento (reglas lógicas o inferencias complejas). |
+| Favorece la interoperabilidad con metodologías de ingeniería del conocimiento. | Puede resultar complejo para personas que no están familiarizadas con la notación UML. |
+| Flexible: aplicable tanto en sistemas de software como en modelos conceptuales. | En sistemas muy grandes, los diagramas pueden volverse difíciles de interpretar. |
 
-- UML ofrece un lenguaje visual estandarizado, lo que facilita la comunicación entre expertos y desarrolladores.
-- Permite formalizar conceptos abstractos y representarlos de manera clara.
-- Favorece la interoperabilidad entre diferentes metodologías de ingeniería del conocimiento.
-- Su flexibilidad permite aplicarlo tanto en software como en modelos conceptuales.
-
-
-Limitaciones:
-
-- UML fue diseñado principalmente para el desarrollo de software, por lo que su aplicación en el modelado del conocimiento puede requerir adaptaciones.
-- No siempre captura la semántica profunda del conocimiento (por ejemplo, reglas lógicas o inferencias).
-- Puede resultar complejo para quienes no están familiarizados con la notación.
-- La representación gráfica puede volverse difusa en sistemas de conocimiento muy grandes.
 
 
 ### 5.2 Aplicaciones reales
 
--Sistemas expertos médicos: UML se utiliza para modelar síntomas, diagnósticos y tratamientos, facilitando la construcción de bases de conocimiento clínicas.
-- Inteligencia de negocios: diagramas de actividad permiten representar procesos de análisis de datos y toma de decisiones.
-- Educación: UML ayuda a estructurar contenidos y procesos de aprendizaje en plataformas digitales.
-- Gestión del conocimiento organizacional: se emplea para mapear procesos internos y flujos de información en empresas.
+| Área | Ejemplo de uso | Función en el modelado del conocimiento |
+|------|----------------|----------------------------------------|
+| Sistemas expertos médicos | Modelar síntomas, diagnósticos y tratamientos | Facilita la construcción de bases de conocimiento clínicas |
+| Inteligencia de negocios | Diagramas de actividad | Representa procesos de análisis de datos y toma de decisiones |
+| Educación | Estructurar contenidos y procesos de aprendizaje | Mejora la organización de plataformas digitales educativas |
+| Gestión del conocimiento organizacional | Mapear procesos internos y flujos de información | Optimiza la gestión de información dentro de la empresa |
+
 
 ### 5.3 Impacto en la toma de decisiones y sistemas computacionales
 
