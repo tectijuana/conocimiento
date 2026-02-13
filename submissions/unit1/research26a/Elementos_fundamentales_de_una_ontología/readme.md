@@ -39,13 +39,10 @@ Los modelos formales y lógicos que permiten la inferencia de nuevo conocimiento
 ---
 
 ## 4. Desarrollo
-La ontología es una rama central de la filosofía que se encarga de estudiar el ser, es decir, aquello que existe y la manera en que existe. No se limita solo a preguntar qué cosas hay en el mundo, sino que busca comprender qué significa que algo sea y cuáles son sus características más esenciales.
-Puede incluir:
-- Comparaciones
-- Ejemplos aplicados
-- Diagramas conceptuales
-- Casos de uso
-- Tablas o esquemas
+La ontología es una rama central de la filosofía que se encarga de estudiar el ser, es decir, aquello que existe y la manera en que existe. No se limita solo a preguntar qué cosas hay en el mundo, sino que busca comprender qué significa que algo sea y cuáles son sus características más esenciales. Asi que la ontologia es en ciencia de la computación es una definición formal de tipos, propiedades, y relaciones entre entidades que realmente o fundamentalmente existen para un dominio de discusión en particular. Es una aplicación práctica de la ontología filosófica, con una taxonomía.
+
+Una ontología cataloga las variables necesitadas para algún conjunto de computación y establece las relaciones entre ellos.  En los campos de la inteligencia artificial, la Web Semántica, ingeniería de sistemas, ingeniería de software, informática biomédica, bibliotecología y arquitectura de la información se crean ontologías para limitar la complejidad y para organizar la información. La ontología puede entonces ser aplicada para resolver problemas.
+
 
 *(Si se incluyen imágenes o diagramas, deben estar dentro de la carpeta del proyecto y referenciados correctamente.)*
 
@@ -77,32 +74,58 @@ Impacto de la Ontologia
 En la toma de decisiones: La ontología ayuda a: Identificar qué elementos son esenciales, Distinguir lo importante de lo secundario, Evaluar causas y consecuencias
 
 Ejemplo práctico
-Un gerente analiza:
-Sustancia: la empresa
-Accidentes: ventas mensuales
-Esencia: ofrecer un servicio de calidad
-Esto permite decisiones más estratégicas y menos improvisadas.
+
+Un ejemplo claro de esto se da en una tienda en línea con un sistema de recomendación inteligente. En este tipo de sistema, la ontología sirve para organizar el conocimiento sobre los productos y sus relaciones.
+
+El sistema cuenta con una ontología donde se definen conceptos como producto, laptop, usuario y accesorio. Además, se establecen relaciones entre ellos, por ejemplo, que una laptop puede tener un sistema operativo, cierta cantidad de memoria RAM y que algunos accesorios son compatibles con ella.
+
+Cuando un usuario escribe:
+
+“Quiero una laptop para diseño gráfico”
+
+el sistema no se limita a buscar productos que contengan esas palabras. Gracias a la ontología, el sistema entiende que el diseño gráfico requiere computadoras con buenas características técnicas, como mayor memoria, tarjeta gráfica dedicada y pantalla de alta resolución.
+
+Con base en este conocimiento previamente definido, el sistema razona y selecciona las laptops que cumplen con esos requisitos. Además, puede sugerir accesorios útiles, como una tableta gráfica o un monitor, aunque el usuario no los haya solicitado directamente.
+
+De esta manera, la ontología permite que el sistema:
+
+Comprenda mejor lo que el usuario necesita
+
+Relacione conceptos entre sí
+
+Ofrezca recomendaciones más acertadas
+
+En conclusión, la ontología ayuda a que los sistemas computacionales pasen de solo “buscar información” a entenderla y usarla de forma inteligente.
 
 ---
 
 ## 6. Conclusiones
 
+La ontología es una herramienta fundamental que permite organizar y representar el conocimiento de manera estructurada y comprensible, tanto para las personas como para los sistemas computacionales. Gracias a ella, es posible definir conceptos, establecer relaciones entre ellos y dar significado a la información.
 
 ---
 
 ## 7. Aporte al repositorio
 Explique brevemente:
-- Qué aporta esta investigación al repositorio
-- Cómo puede ser reutilizada por otros estudiantes o cursos futuros
+
+Esta investigacion aporta al repositorio el poder dar a conocer la herramienta de la ontologia. En el ámbito de los sistemas computacionales, la ontología ayuda a que los sistemas no solo procesen datos, sino que comprendan su contexto y significado, lo que mejora la toma de decisiones, la búsqueda de información y las recomendaciones inteligentes.
+
+La investigacion puede ser reutilizada cuando alguien busque el poder conocer mas a fondo la herramienta que es la ontologia y como  esta nos ayuda a poder comprender de mejor manera la informacion que buscamos en internet
 
 ---
 
 ## 8. Referencias
-Liste las fuentes consultadas en formato académico.  
-Ejemplo:
+Gruber, T. R. (2016). Ontology. En L. Liu & M. T. Özsu (Eds.), Encyclopedia of Database Systems. Springer.
+Definición técnica de ontologías como especificaciones de conceptos, relaciones y vocabulario formal para modelar conocimiento en un dominio.
+Disponible en: https://tomgruber.org/writing/definition-of-ontology/
 
-- Autor, A. (Año). *Título del libro o artículo*. Editorial o URL.
-- Sitio web oficial, documentación técnica o artículo académico.
+Ontology and Information Systems. Stanford Encyclopedia of Philosophy.
+Explicación del papel de las ontologías para representar categorías y relaciones en ciencias de la computación e ingeniería del conocimiento.
+Disponible en: https://plato.stanford.edu/entries/ontology-is/
+
+Ontología (informática). Wikipedia en español.
+Introducción al concepto de ontología aplicado en informática, su origen, definiciones y uso en inteligencia artificial y representación del conocimiento.
+Disponible en: https://es.wikipedia.org/wiki/Ontolog%C3%ADa_%28inform%C3%A1tica%29
 
 ---
 
@@ -110,7 +133,6 @@ Ejemplo:
 Declaro que esta investigación es de autoría propia y que las fuentes utilizadas han sido debidamente citadas.
 
 **Firma:**  
-[Nombre del estudiante]
-
+[Ponce Molina Juan Carlos]
 **Fecha:**  
 [DD/MM/AAAA]
