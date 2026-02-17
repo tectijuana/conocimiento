@@ -39,7 +39,7 @@ Tecnológico Nacional de México
 
 La representación del conocimiento es un área esencial dentro de la Inteligencia Artificial y la Ingeniería del Conocimiento, ya que permite que los sistemas computacionales almacenen, organicen y utilicen información sobre el mundo real para razonar y tomar decisiones. No se trata únicamente de guardar datos, sino de estructurarlos de forma que puedan interpretarse, relacionarse y generar nuevo conocimiento.
 
-Existen diversas formas de representar el conocimiento, y cada una responde a diferentes necesidades según el tipo de problema, la complejidad del dominio y el tipo de razonamiento que se requiere. En esta investigación analiza las principales formas de representación del conocimiento y su importancia en el diseño de sistemas inteligentes.
+Existen diversas formas de representar el conocimiento, y cada una responde a diferentes necesidades según el tipo de problema, la complejidad del dominio y el tipo de razonamiento que se requiere. En esta investigación se analizan las principales formas de representación del conocimiento y su importancia en el diseño de sistemas inteligentes.
 
 ----------
 
@@ -56,7 +56,7 @@ Analizar las diferentes formas de representación del conocimiento en sistemas c
 
 ## 3. Marco teórico
 [](https://github.com/PolloPremium/conocimiento/blob/main/submissions/unit1/research26a/templete.md#3-marco-te%C3%B3rico)
-La representación del conocimiento es un área fundamental de la Inteligencia Artificial y la Ingeniería del Conocimiento que busca estructurar la información de manera que los sistemas computacionales puedan interpretarla y usarla para razonar. No se limita a almacenar datos, sino que organiza hechos, conceptos y relaciones con significado.En  si estos fundamentos teóricos permiten que los sistemas inteligentes simulen procesos de razonamiento humano y puedan aplicarse en áreas como sistemas expertos, asistentes virtuales y sistemas de recomendación.
+La representación del conocimiento es un área fundamental de la Inteligencia Artificial y la Ingeniería del Conocimiento que busca estructurar la información de manera que los sistemas computacionales puedan interpretarla y usarla para razonar. No se limita a almacenar datos, sino que organiza hechos, conceptos y relaciones con significado. En si, estos fundamentos teóricos permiten que los sistemas inteligentes simulen procesos de razonamiento humano y puedan aplicarse en áreas como sistemas expertos, asistentes virtuales y sistemas de recomendación.
 
 El conocimiento puede clasificarse en declarativo (hechos), procedural (cómo hacer algo), heurístico (basado en la experiencia) y estructural (relaciones entre conceptos). Para que una computadora pueda utilizarlo, este debe expresarse mediante modelos formales que permitan su manipulación lógica.
 
@@ -81,7 +81,7 @@ En la práctica, la Ingeniería del Conocimiento sigue una serie de pasos:
 **Adquisición del conocimiento:** Se recopila la información del dominio, ya sea de un experto o mediante investigación. El objetivo es entender bien el tema, aún sin representarlo formalmente.
 
 **Representación del conocimiento:** Se elige cómo se organizará el conocimiento (reglas, redes semánticas, marcos, etc.) y luego se construye la base de conocimiento de forma estructurada.
-**Desarrollo del motor de inferencia:** Desarrollo del motor de inferencia:Se diseñan e implementan los algoritmos que permitirán al sistema razonar y obtener respuestas a partir de la base de conocimiento.
+**Desarrollo del motor de inferencia:** Desarrollo del motor de inferencia: Se diseñan e implementan los algoritmos que permitirán al sistema razonar y obtener respuestas a partir de la base de conocimiento.
 
 **Validación y verificación:** Se prueba el sistema para comprobar que funciona correctamente y se ajustan tanto el conocimiento como el motor de inferencia si es necesario.
 **Implementación y mantenimiento:** Se crea la interfaz para los usuarios, se integra el sistema en su entorno real y se mantiene actualizado con mejoras y correcciones.
@@ -170,7 +170,11 @@ En aplicaciones reales, como  asistentes virtuales o sistemas de recomendación,
 
 [](https://github.com/PolloPremium/conocimiento/blob/main/submissions/unit1/research26a/templete.md#6-conclusiones)
 
-Las distintas formas de representación del conocimiento permiten modelar la realidad desde diferentes perspectivas. No existe un único método ideal, sino que su elección depende del problema a resolver. Comprender estas técnicas es fundamental para desarrollar sistemas inteligentes capaces de analizar información, aprender y tomar decisiones de manera eficiente.
+Las diferentes formas de representación del conocimiento permiten modelar la realidad desde múltiples perspectivas, facilitando que los sistemas computacionales puedan razonar, aprender y tomar decisiones. No existe un único método ideal, ya que cada técnica presenta ventajas y limitaciones dependiendo del problema que se desea resolver.
+
+La representación del conocimiento constituye un elemento fundamental en el desarrollo de sistemas inteligentes, especialmente en áreas como sistemas expertos, asistentes virtuales, análisis de datos y gestión empresarial. Además, las tendencias actuales apuntan hacia la integración de modelos simbólicos con técnicas de aprendizaje automático, lo que permitirá construir sistemas más inteligentes, adaptables y explicables.
+
+Comprender estas técnicas resulta esencial para los profesionales de tecnologías de la información, ya que contribuye al diseño de soluciones innovadoras que mejoran la eficiencia organizacional y la toma de decisiones en diversos contextos.
 
 ----------
 
