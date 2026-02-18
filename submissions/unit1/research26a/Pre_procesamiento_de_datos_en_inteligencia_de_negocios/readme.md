@@ -34,6 +34,8 @@ El pre-procesamiento de datos es una etapa fundamental dentro de la inteligencia
 
 Dentro de la Ingeniería del Conocimiento, el pre-procesamiento es esencial porque impacta directamente en la calidad del conocimiento que se extrae y representa. Un modelo, sistema experto o herramienta de análisis solo puede ser tan bueno como los datos que utiliza. El propósito de este trabajo es analizar los conceptos, procesos y aplicaciones del pre-procesamiento de datos en inteligencia de negocios, destacando su importancia en la toma de decisiones y en los sistemas computacionales modernos.
 
+<img width="860" height="525" alt="image" src="https://github.com/user-attachments/assets/86be588a-0bcc-4c13-9f55-e14439d9ffc3" />
+
 ----------
 
 ## 2. Objetivo
@@ -81,6 +83,7 @@ Por ejemplo, en una empresa que analiza el comportamiento de sus clientes, el pr
 En entornos empresariales, el preprocesamiento de datos suele llevarse a cabo mediante procesos ETL (Extract, Transform, Load). Para ello, se utilizan herramientas como SQL Server Integration Services (SSIS), Talend o Pentaho, así como lenguajes de programación como Python, apoyado en bibliotecas especializadas como Pandas y NumPy.
 
 Estas soluciones permiten automatizar la extracción, limpieza, transformación e integración de grandes volúmenes de datos provenientes de múltiples fuentes, asegurando una mayor calidad, consistencia y disponibilidad de la información para su análisis y toma de decisiones.
+ <img width="3624" height="6725" alt="image" src="https://github.com/user-attachments/assets/cb497a09-66bc-4203-a783-72531cfd16f9" />
 
 ----------
 
