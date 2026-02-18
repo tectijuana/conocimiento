@@ -67,6 +67,60 @@ El modelo organizacional de CommonKADS se estructura mediante un conjunto de pla
 
 El **OM-1** establece los objetivos estratégicos de la organización y su contexto interno y externo. El **OM-2** analiza los procesos del negocio, permitiendo identificar cuellos de botella o procesos críticos. El **OM-3** descompone dichos procesos en tareas específicas, mientras que el **OM-4** asigna estas tareas a agentes responsables. Finalmente, el **OM-5** integra el análisis para detectar problemas, riesgos y oportunidades de mejora.
 
+``` mermaid
+
+graph TD
+    A["🏢 CommonKADS\nModelo Organizacional"] --> B["OM-1\nModelo de Contexto"]
+    A --> C["OM-2\nModelo de Procesos"]
+    A --> D["OM-3\nModelo de Tareas"]
+    A --> E["OM-4\nModelo de Agentes"]
+    A --> F["OM-5\nProblemas y Oportunidades"]
+
+    B --> B1["Objetivos estratégicos\nde la organización"]
+    B --> B2["Contexto interno\ny externo"]
+
+    C --> C1["Procesos clave\ndel negocio"]
+    C --> C2["Identificación de\ncuellos de botella"]
+
+    D --> D1["Descomposición de\nprocesos en tareas"]
+    D --> D2["Tareas intensivas\nen conocimiento"]
+
+    E --> E1["Actores humanos\ninvolucrados"]
+    E --> E2["Sistemas y\nherramientas"]
+
+    F --> F1["Detección de\nproblemas y riesgos"]
+    F --> F2["Oportunidades de\nautomatización"]
+
+    F --> G["💡 Sistema Basado\nen Conocimiento"]
+
+    style A fill:#2E75B6,color:#fff,font-weight:bold
+    style G fill:#70AD47,color:#fff,font-weight:bold
+    style B fill:#4472C4,color:#fff
+    style C fill:#4472C4,color:#fff
+    style D fill:#4472C4,color:#fff
+    style E fill:#4472C4,color:#fff
+    style F fill:#4472C4,color:#fff
+
+```
+
+``` mermaid
+
+flowchart LR
+    OM1["📋 OM-1\nContexto\nOrganizacional"] --> OM2["⚙️ OM-2\nProcesos\ndel Negocio"]
+    OM2 --> OM3["📌 OM-3\nTareas\nEspecíficas"]
+    OM3 --> OM4["👥 OM-4\nAgentes\nResponsables"]
+    OM4 --> OM5["🔍 OM-5\nProblemas y\nOportunidades"]
+    OM5 --> SKS["🤖 Sistema Basado\nen Conocimiento"]
+
+    style OM1 fill:#1F4E79,color:#fff
+    style OM2 fill:#2E75B6,color:#fff
+    style OM3 fill:#2980B9,color:#fff
+    style OM4 fill:#5BA3D0,color:#fff
+    style OM5 fill:#7CB9E8,color:#000
+    style SKS fill:#1E8449,color:#fff,font-weight:bold
+
+```
+
 ### 4.2 Utilidad del modelo organizacional
 
 La principal utilidad del modelo organizacional es asegurar que los sistemas basados en conocimiento respondan a necesidades reales. Permite:
