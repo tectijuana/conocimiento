@@ -25,6 +25,8 @@ Tecnológico Nacional de México
 
 *La minería de datos es una disciplina fundamental dentro de la       Ingeniería del Conocimiento, ya que permite transformar grandes       volúmenes de datos en información útil para la toma de decisiones. En    la actualidad, las organizaciones generan enormes cantidades de datos    provenientes de sistemas transaccionales, redes sociales, sensores,      plataformas digitales y procesos empresariales. Sin embargo, estos       datos por sí solos carecen de valor si no son analizados e       interpretados adecuadamente. En este contexto, la minería de datos       surge como una técnica clave para la extracción de conocimiento,       utilizando métodos estadísticos, algoritmos de aprendizaje automático    y herramientas de análisis avanzado. Su importancia radica en la       capacidad de descubrir patrones ocultos, tendencias, correlaciones y     comportamientos que no son evidentes a simple vista. El propósito de     esta investigación es analizar la minería de datos como técnica de       extracción de conocimiento, abordando sus fundamentos teóricos,       procesos, aplicaciones y su impacto dentro de los sistemas basados en    conocimiento.*
 
+![Proceso KDD](0718-5006-formuniv-12-04-00055-gf1.jpg)
+
 ---
 
 ## 2. Objetivo
