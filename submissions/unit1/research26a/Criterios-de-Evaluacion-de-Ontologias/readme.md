@@ -74,6 +74,32 @@ Durante el proceso de evaluación, se definen y llevan a cabo un conjunto de pru
 - c) La evaluación de las ontologías entregadas consiste en determinar su calidad comparándolas con otras ontologías diferentes pero equivalentes. Para ello se elabora un conjunto de criterios cualitativos y cuantitativos, que se miden mediante un conjunto de métricas predefinidas.
 
 
+```mermaid
+flowchart TD
+    A[Evaluación de Ontologías] --> B[Premodelado]
+    A --> C[Modelado]
+    A --> D[Entrega]
+
+    B --> B1[Revisión de materiales]
+    C --> C1[Coherencia de conceptos]
+    C --> C2[Redundancias y sintaxis]
+    D --> D1[Comparación con otras ontologías]
+    D --> D2[Métricas cualitativas y cuantitativas]
+
+    subgraph E[Criterios comunes]
+        E1[Rigurosidad taxonómica]
+        E2[Lenguaje de codificación]
+        E3[Rendimiento en aplicaciones]
+        E4[Vocabulario claro]
+    end
+
+    B -.-> E1
+    C -.-> E1
+    C -.-> E2
+    D -.-> E3
+    B -.-> E4
+```
+
 ## Antecedentes y enfoques de autores
 
 Para Brewster y cols (2004), las ontologías deben evaluarse: 
@@ -135,6 +161,21 @@ La mayoría de las propuestas coinciden en la evaluación de los siguientes crit
 - c) Rendimiento de las aplicaciones o tareas que utilizan las ontologías: analiza qué tan eficiente resulta la ontología cuando es utilizada en sistemas o tareas reales.
   
 - d) Vocabulario utilizado para representar los conceptos y relaciones del dominio modelado: revisa que los conceptos y relaciones representen de forma clara y correcta el conocimiento del dominio modelado.
+
+```mermaid
+flowchart TD
+    A[Criterios de Evaluación de Ontologías] --> B[Rigurosidad taxonómica]
+    A --> C[Lenguaje de codificación]
+    A --> D[Rendimiento en aplicaciones]
+    A --> E[Vocabulario claro]
+
+    B --> B1[Organización jerárquica coherente]
+    C --> C1[Cumplimiento de reglas del lenguaje]
+    D --> D1[Eficiencia en sistemas y tareas reales]
+    E --> E1[Conceptos y relaciones bien representados]
+```
+
+
 
 ----------
 
