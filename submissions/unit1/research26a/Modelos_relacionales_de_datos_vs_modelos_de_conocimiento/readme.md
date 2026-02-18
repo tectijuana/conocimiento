@@ -201,6 +201,99 @@ Mayor costo computacional
 Impacto en sistemas:
 Los sistemas modernos combinan ambos modelos: bases relacionales para almacenamiento y modelos de conocimiento para análisis inteligente.
 
+
+ 1. Modelo Relacional de Datos
+
+El modelo relacional fue propuesto por Edgar F. Codd en 1970 y se basa en la organización de datos en **tablas (relaciones)** compuestas por filas y columnas.
+
+ Funcionamiento
+
+- Cada **tabla** representa una entidad.
+- Cada **fila** representa un registro.
+- Cada **columna** representa un atributo.
+- Las tablas se relacionan mediante **claves primarias y foráneas**.
+- Se utiliza el lenguaje **SQL** para manipular la información.
+
+ Características principales
+
+- Estructura fija y bien definida.
+- Integridad referencial.
+- Normalización para evitar redundancia.
+- Consultas estructuradas y optimizadas.
+
+Ventajas
+
+- Alta consistencia de datos.
+- Seguridad y control de acceso.
+- Rendimiento eficiente en grandes volúmenes estructurados.
+- Estándar ampliamente adoptado en empresas.
+
+Limitaciones
+
+- Menor flexibilidad ante cambios estructurales.
+- No está diseñado para representar significado profundo.
+- No permite inferencia automática.
+
+---
+
+2. Modelo de Conocimiento
+
+El modelo de conocimiento se enfoca en representar **conceptos, relaciones y reglas**, no solo datos. Es común en áreas como:
+
+- Inteligencia Artificial
+- Sistemas expertos
+- Web semántica
+- Ontologías
+
+Funcionamiento
+
+La información se representa mediante:
+
+- Grafos semánticos
+- Redes conceptuales
+- Reglas lógicas (SI-ENTONCES)
+- Ontologías
+
+## Diagrama Comparativo
+```mermaid
+flowchart LR
+
+    subgraph MR[Modelo Relacional]
+        A[Tablas]
+        B[Filas]
+        C[Columnas]
+        D[Clave Primaria]
+        E[Clave Foranea]
+        F[SQL]
+        G[Datos Estructurados]
+
+        A --> B
+        A --> C
+        C --> D
+        C --> E
+        E --> D
+        A --> F
+        A --> G
+    end
+
+    subgraph MC[Modelo de Conocimiento]
+        H[Conceptos]
+        I[Relaciones]
+        J[Reglas]
+        K[Inferencia]
+        L[Grafos]
+        M[Ontologias]
+
+        H --> I
+        I --> J
+        J --> K
+        H --> L
+        H --> M
+    end
+
+    MR --- MC
+```
+
 ---
 
 ## 6. Conclusiones
