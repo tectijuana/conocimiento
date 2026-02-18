@@ -83,7 +83,8 @@ Por ejemplo, en una empresa que analiza el comportamiento de sus clientes, el pr
 En entornos empresariales, el preprocesamiento de datos suele llevarse a cabo mediante procesos ETL (Extract, Transform, Load). Para ello, se utilizan herramientas como SQL Server Integration Services (SSIS), Talend o Pentaho, así como lenguajes de programación como Python, apoyado en bibliotecas especializadas como Pandas y NumPy.
 
 Estas soluciones permiten automatizar la extracción, limpieza, transformación e integración de grandes volúmenes de datos provenientes de múltiples fuentes, asegurando una mayor calidad, consistencia y disponibilidad de la información para su análisis y toma de decisiones.
- <img width="3624" height="6725" alt="image" src="https://github.com/user-attachments/assets/cb497a09-66bc-4203-a783-72531cfd16f9" />
+<img width="3614" height="6725" alt="image" src="https://github.com/user-attachments/assets/b7526768-979e-441d-92d3-5858b3ab9595" />
+
 
 ----------
 
