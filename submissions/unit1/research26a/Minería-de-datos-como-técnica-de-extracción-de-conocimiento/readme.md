@@ -50,22 +50,24 @@ La minería de datos (Data Mining) es el proceso de descubrir conocimiento útil
 
 La minería de datos forma parte del proceso KDD, el cual incluye las siguientes
 
-**Selección de datos :** Identificación de fuentes relevantes
-
-**Preprocesamiento :** Limpieza y depuración de datos
-
-**Transformación :** Preparación de datos para modelado
-
-**Minería de datos :** Aplicación de algoritmos
+| Etapa                | Descripción                                                                 | Objetivo principal                          |
+|----------------------|-----------------------------------------------------------------------------|---------------------------------------------|
+| Selección de datos   | Identificación y recopilación de fuentes de datos relevantes                | Obtener datos útiles para el análisis       |
+| Preprocesamiento     | Limpieza, eliminación de ruido y datos incompletos                          | Mejorar la calidad de los datos             |
+| Transformación       | Conversión y preparación de datos para el modelado                          | Facilitar el uso de algoritmos              |
+| Minería de datos     | Aplicación de técnicas y algoritmos inteligentes                            | Descubrir patrones y conocimiento           |
+| Interpretación       | Análisis de resultados y validación del conocimiento obtenido               | Apoyar la toma de decisiones                | Aplicación de algoritmos
  
 
 Técnicas principales de minería de datos
 
-**Clasificación:** Asigna datos a categorías.
-**Regresión:** Predice valores continuos.
-**Clustering (agrupamiento):** Agrupa datos similares.
- **Reglas de asociación:** Detecta relaciones entre variables.
-**Detección de anomalías:** Identifica comportamientos inusuales.
+| Técnica                  | Descripción                                              | Ejemplo de uso                          |
+|--------------------------|----------------------------------------------------------|-----------------------------------------|
+| Clasificación            | Asigna datos a categorías predefinidas                   | Correos spam / no spam                  |
+| Regresión                | Predice valores numéricos continuos                      | Pronóstico de ventas                    |
+| Clustering               | Agrupa datos por similitud                               | Segmentación de clientes                |
+| Reglas de asociación     | Detecta relaciones entre variables                       | Productos comprados juntos              |
+| Detección de anomalías   | Identifica comportamientos inusuales  
 
 ---
 
