@@ -1,11 +1,15 @@
 # Ingeniería del Conocimiento (TIC-1015)
 ## Investigación Individual
 
+<p align="left">
+  <img src="https://dc722jrlp2zu8.cloudfront.net/media/uploads/2020/03/11/cap1-powerbi2.jpg" width="400">
+</p>
+
+---
 ### Título de la investigación
 **Diferencias entre dato, información y conocimiento en sistemas computacionales**
 
 ---
-
 ### Estudiante
 **Nombre completo:**  
 Benitez Garduño Kevin
@@ -35,50 +39,18 @@ Analizar y diferenciar los conceptos de dato, información y conocimiento en sis
 ---
 
 ## 3. Marco teórico
-### Dato
+### Tabla comparativa
 
-Un **dato** es la representación simbólica de un hecho, evento o característica sin contexto ni interpretación. Puede presentarse en forma de números, texto, imágenes o señales.
+| Característica | Dato | Información | Conocimiento |
+|----------------|------|-------------|---------------|
+| Definición | Hecho sin procesar | Datos organizados | Información interpretada |
+| Contexto | No tiene | Sí tiene | Sí + experiencia |
+| Valor | Bajo | Medio | Alto |
+| Propósito | Registrar | Informar | Decidir |
+| Ejemplo | 25 | Temperatura = 25°C | Encender ventilador |
+| Nivel en DIKW | Base | Intermedio | Alto |
+| Uso en sistemas | Entrada | Procesamiento | Inteligencia |
 
-Ejemplo:
-
--   25
-    
--   "A123"
-    
--   2026-02-12
-    
-
-Los datos por sí solos no tienen significado hasta que son procesados.
-
-----------
-
-### Información
-
-La **información** es el resultado de organizar, procesar y contextualizar datos, de manera que adquieren significado y utilidad.
-
-Ejemplo:
-
--   "La temperatura actual es de 25°C."
-    
--   "El cliente A123 realizó una compra el 12 de febrero de 2026."
-    
-
-La información responde preguntas como: ¿qué?, ¿quién?, ¿cuándo?, ¿dónde?
-
-----------
-
-### Conocimiento
-
-El **conocimiento** surge cuando la información es interpretada, analizada y combinada con experiencia o reglas, permitiendo generar conclusiones o tomar decisiones.
-
-Ejemplo:
-
--   "Si la temperatura supera los 30°C, se debe activar el sistema de refrigeración."
-    
--   "El cliente A123 compra cada mes, por lo tanto es un cliente frecuente."
-    
-
-El conocimiento responde preguntas como: ¿cómo? y ¿por qué?
 
 ----------
 
@@ -120,7 +92,16 @@ Comparación entre dato, información y conocimiento
 3.  **Conocimiento:**
     
     -   El Producto X tiene alta demanda; se debe aumentar inventario.
+      
         
+### Niveles de procesamiento en sistemas computacionales
+
+| Nivel | Entrada | Proceso | Resultado | Tecnología asociada |
+|------|---------|---------|-----------|----------------------|
+| Datos | Valores sin contexto | Captura | Registro bruto | Sensores, formularios, logs |
+| Información | Datos organizados | Clasificación | Reportes | Bases de datos, SQL |
+| Conocimiento | Información analizada | Interpretación | Decisiones | IA, Machine Learning |
+| Acción | Conocimiento aplicado | Automatización | Resultado operativo | Sistemas expertos, bots |
 
 ----------
 
