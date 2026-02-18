@@ -6,6 +6,8 @@
 
 **Criterios de evaluación de ontologías**
 
+
+
 ----------
 
 ### **Estudiante**
@@ -56,10 +58,14 @@ Varios autores han propuesto enfoques distintos. Brewster et al. (2004) hablan d
 ## **4. Desarrollo**
 
 # Criterios de evaluación de ontologías
+## Imagen de referencia
+
+![Historical Osontolog](https://www.allaboutai.com/wp-content/uploads/2023/12/What-is-Historical-Fiction_.jpg)
 
 Una ontología consiste en una descripción formal y clara de una conceptualización compartida, la cual se distingue por definir un vocabulario común que también incluye la interpretación de los conceptos fundamentales del ámbito y sus interrelaciones. El uso de ontologías ha aumentado notablemente y se ha vuelto habitual en diversas disciplinas.
 
 Durante el proceso de evaluación, se definen y llevan a cabo un conjunto de pruebas y se examinan los resultados de estas (Hartman, Spyns, Giboin, Maynard, Cuel, Suárez-Figueroa y Sure, 2005), tomando en cuenta tres fases de las ontologías: premodelado, modelado y entregadas (delivery).
+
 
 - a) Pre-modelado: Se considera revisión y evaluación de materiales disponibles para la construcción de ontologías.
 
@@ -68,7 +74,7 @@ Durante el proceso de evaluación, se definen y llevan a cabo un conjunto de pru
 - c) La evaluación de las ontologías entregadas consiste en determinar su calidad comparándolas con otras ontologías diferentes pero equivalentes. Para ello se elabora un conjunto de criterios cualitativos y cuantitativos, que se miden mediante un conjunto de métricas predefinidas.
 
 
-## Antedentes y enfoques de autores
+## Antecedentes y enfoques de autores
 
 Para Brewster y cols (2004), las ontologías deben evaluarse: 
 - a) Desde la perspectiva de los principios usados para su construcción (rigurosidad taxonómica).
@@ -105,6 +111,19 @@ El método ONTOMETRIC (Lozano-Tello, 2002) permite seleccionar entre un conjunto
 - c) Metodología de desarrollo.
 - d) Herramientas de software usadas para construir y editar la ontología.
 - e) Costo de construcción
+
+
+## Tabla comparativa de criterios de evaluación de ontologías
+
+| Autor                | Criterios principales                                                                 |
+|-----------------------|--------------------------------------------------------------------------------------|
+| Brewster et al. (2004) | Rigurosidad taxonómica, eficiencia en aplicaciones, congruencia con el dominio       |
+| Obrst et al. (2007)   | Representación de individuos, rendimiento de tareas, compatibilidad con razonamiento |
+| Porzel y Malaka (2004)| Vocabulario, taxonomías, relaciones semánticas                                       |
+| Burton-Jones et al. (2005) | Sintaxis, semántica, pragmática, calidad social                              |
+| Brank et al. (2005)   | Vocabulario, jerarquía, contexto de aplicación, sintaxis, estructura y diseño        |
+| Lozano-Tello (2002)   | Contenido, lenguaje, metodología, herramientas, costo                                |
+
 
 ## Criterios de evaluación 
 
