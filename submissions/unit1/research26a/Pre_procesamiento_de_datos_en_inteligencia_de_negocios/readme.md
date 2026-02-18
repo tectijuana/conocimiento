@@ -68,8 +68,19 @@ El proceso de pre-procesamiento de datos consta de varias etapas que pueden vari
     
 -   **Reducción de datos:** Se disminuye el número de variables o registros para facilitar el análisis y mejorar el rendimiento de los modelos.
     
+| Etapa                                   | Descripción                                                                 | Ejemplos | Herramientas |
+|------------------------------------------|----------------------------------------------------------------------------|----------|---------------|
+| Comprensión y análisis de los datos     | Se realiza una exploración inicial para identificar la estructura, distribución, tipo de variables, calidad y posibles anomalías en el conjunto de datos. | Análisis de valores atípicos, revisión de tipos de datos, análisis de correlación | Python (Pandas), SQL, Power BI, Jupyter Notebook |
+| Limpieza de datos                       | Se corrigen inconsistencias, se eliminan registros erróneos o duplicados y se aplican técnicas para el tratamiento de valores atípicos y datos faltantes. | Eliminación de duplicados, imputación de valores nulos, corrección de formatos | OpenRefine, Python, Excel, SQL |
+| Integración de datos                    | Se unifican y consolidan datos provenientes de múltiples fuentes, garantizando coherencia, compatibilidad y consistencia semántica. | Unión de tablas, consolidación de bases de datos, integración de APIs | Procesos ETL, Talend, Pentaho, SSIS |
+| Transformación de datos                 | Se modifican los datos mediante técnicas matemáticas y estadísticas para adecuarlos a los requisitos de los modelos analíticos y algoritmos de aprendizaje. | Normalización Min-Max, estandarización (Z-score), codificación One-Hot | Scikit-learn, Python, R |
+| Reducción de datos                      | Se optimiza el volumen y la dimensionalidad del conjunto de datos para mejorar la eficiencia computacional y el rendimiento de los modelos predictivos. | Selección de características, PCA, muestreo de datos | Scikit-learn, WEKA, RapidMiner |
 
-Por ejemplo, en una empresa que analiza el comportamiento de clientes, el pre-procesamiento permite unificar datos de ventas, marketing y atención al cliente, logrando una visión más completa y confiable para la toma de decisiones estratégicas.
+Por ejemplo, en una empresa que analiza el comportamiento de sus clientes, el preprocesamiento de datos permite limpiar, organizar y transformar la información antes de realizar cualquier análisis. Esto incluye la eliminación de datos duplicados, la corrección de errores, el manejo de valores faltantes y la estandarización de formatos, lo que garantiza resultados más precisos y confiables.
+
+En entornos empresariales, el preprocesamiento de datos suele llevarse a cabo mediante procesos ETL (Extract, Transform, Load). Para ello, se utilizan herramientas como SQL Server Integration Services (SSIS), Talend o Pentaho, así como lenguajes de programación como Python, apoyado en bibliotecas especializadas como Pandas y NumPy.
+
+Estas soluciones permiten automatizar la extracción, limpieza, transformación e integración de grandes volúmenes de datos provenientes de múltiples fuentes, asegurando una mayor calidad, consistencia y disponibilidad de la información para su análisis y toma de decisiones.
 
 ----------
 
