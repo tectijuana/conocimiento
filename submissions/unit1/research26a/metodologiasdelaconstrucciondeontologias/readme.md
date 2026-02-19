@@ -226,3 +226,41 @@ Gestión del conocimiento.
 Educación y e-learning.
 
 Ciencias de la salud.
+
+
+```mermaid
+flowchart TB
+
+A[Construcción de Ontologías]
+
+A --> B[Ontologías]
+B --> B1[Conceptos]
+B --> B2[Relaciones]
+B --> B3[Reglas]
+
+A --> C[Proceso general]
+C --> C1[Definir propósito]
+C --> C2[Identificar conceptos]
+C --> C3[Definir relaciones]
+C --> C4[Formalizar e implementar]
+
+A --> D[Metodologías principales]
+
+D --> E[Gruber]
+E --> E1[Principios de diseño]
+
+D --> F[Uschold y King]
+F --> F1[Proceso organizacional]
+
+D --> G[Methontology]
+G --> G1[Proceso estructurado]
+
+D --> H[NeOn]
+H --> H1[Reutilización de ontologías]
+
+A --> I[Aplicaciones]
+I --> I1[Web Semántica]
+I --> I2[Inteligencia Artificial]
+I --> I3[Gestión del conocimiento]
+```
+
