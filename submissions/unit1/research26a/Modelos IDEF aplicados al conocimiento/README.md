@@ -90,8 +90,30 @@ El uso del modelo IDEF0 se recomienda en las siguientes situaciones:
 
 </p>
 
+```mermaid
+flowchart TB
 
+%% Ventajas
+E --> M[Ventajas del uso de IDEF0]
+M --> M1[Descomposición jerárquica]
+M --> M2[Identificación de cuellos de botella]
+M --> M3[Visualización clara del proceso]
+M --> M4[Mejora y optimización]
 
+%% Cuándo se recomienda
+E --> N[Cuándo se recomienda usar IDEF0]
+N --> N1[Procesos complejos]
+N --> N2[Necesidad de exactitud y detalle]
+N --> N3[Estandarización de procesos]
+N --> N4[Análisis y presentación de mejoras]
+
+%% Sectores de aplicación
+E --> O[Aplicación en industrias]
+O --> O1[Aeroespacial]
+O --> O2[Electrónica]
+O --> O3[Farmacéutica]
+O --> O4[Bienes de consumo]
+```
 
 ---------------------------------------------------------------------------------
 <p align="justify">
@@ -101,7 +123,3 @@ Disponible en:
 https://qualitasbiblo.wordpress.com/wp-content/uploads/2013/01/idef-0.pdf
 </a>
 </p>
-
-
-
-
