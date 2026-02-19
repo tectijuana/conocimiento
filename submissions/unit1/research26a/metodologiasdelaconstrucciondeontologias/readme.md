@@ -56,6 +56,43 @@ Por otro lado, metodologías como la de Gruber o Uschold y King presentan enfoqu
 
 En este sentido, la elección de la metodología depende del contexto, los objetivos del proyecto y el nivel de formalización necesario. La tendencia actual apunta hacia la combinación de enfoques estructurados con prácticas ágiles, buscando equilibrio entre calidad, eficiencia y reutilización del conocimiento.
 
+```mermaid
+flowchart TB
+
+A[Construcción de Ontologías]
+
+A --> B[Ontologías]
+B --> B1[Conceptos]
+B --> B2[Relaciones]
+B --> B3[Reglas]
+
+A --> C[Proceso general]
+C --> C1[Definir propósito]
+C --> C2[Identificar conceptos]
+C --> C3[Definir relaciones]
+C --> C4[Formalizar e implementar]
+
+A --> D[Metodologías principales]
+
+D --> E[Gruber]
+E --> E1[Principios de diseño]
+
+D --> F[Uschold y King]
+F --> F1[Proceso organizacional]
+
+D --> G[Methontology]
+G --> G1[Proceso estructurado]
+
+D --> H[NeOn]
+H --> H1[Reutilización de ontologías]
+
+A --> I[Aplicaciones]
+I --> I1[Web Semántica]
+I --> I2[Inteligencia Artificial]
+I --> I3[Gestión del conocimiento]
+```
+
+
 ---
 
 ## 6. Conclusiones
@@ -93,11 +130,14 @@ Angela Sofia Salazar Delgado
 **Fecha:**  
 10/02/2026
 
+<img width="1200" height="800" alt="Image" src="https://github.com/user-attachments/assets/63633276-629e-4bc4-8b44-e070cd128dd0" />
 
-Metodologías de construcción de ontologías
+
+
+                                                     Metodologías de construcción de ontologías
 Una ontología es una especificación explícita y formal de una conceptualización compartida. Esto significa que define de manera clara los conceptos de un dominio, sus propiedades, relaciones y restricciones, permitiendo la interoperabilidad entre sistemas y el razonamiento automático. Las ontologías son ampliamente utilizadas en áreas como la Web Semántica, sistemas expertos, recuperación de información y ciencia de datos.
 
-Importancia de las Metodologías de Construcción de Ontologías
+                                           Importancia de las Metodologías de Construcción de Ontologías
 
 El desarrollo de una ontología sin una metodología adecuada puede generar inconsistencias, ambigüedades y dificultades de mantenimiento. Las metodologías proporcionan:
 
@@ -109,20 +149,20 @@ Mejora en la calidad y reutilización del conocimiento.
 
 Facilitan la validación y evolución de la ontología.
 
-Principales Metodologías de Construcción de Ontologías
-Metodología de Gruber
+                                             Principales Metodologías de Construcción de Ontologías
++Metodología de Gruber
 
 Propuesta por Thomas Gruber, esta metodología se centra en principios de diseño ontológico, tales como claridad, coherencia, extensibilidad, mínimo compromiso ontológico y mínima codificación.
 
-Características principales:
+                                       Características principales:
 
-Definición clara del dominio y propósito.
+-Definición clara del dominio y propósito.
 
-Uso de términos bien definidos.
+-Uso de términos bien definidos.
 
-Enfoque en la reutilización del conocimiento.
+-Enfoque en la reutilización del conocimiento.
 
-Ventajas:
+                                        Ventajas:
 
 Facilita la interoperabilidad.
 
@@ -148,81 +188,79 @@ Evaluación.
 
 Documentación.
 
-Ventajas:
+                                              Ventajas:
 
-Enfoque claro y organizado.
+-Enfoque claro y organizado.
 
-Adecuada para contextos organizacionales.
+-Adecuada para contextos organizacionales.
 
-Desventajas:
+                                              Desventajas:
 
-Limitada en el soporte técnico para implementación.
+-Limitada en el soporte técnico para implementación.
 
-Poca orientación sobre herramientas específicas.
+-Poca orientación sobre herramientas específicas.
 
-Metodología Methontology
-
-Desarrollada por el grupo de investigación de la Universidad Politécnica de Madrid, es una de las metodologías más completas y utilizadas.
+                  Metodología Methontology desarrollada por el grupo de investigación de la Universidad Politécnica de Madrid, es una de las metodologías más completas y utilizadas.
 
 Fases principales:
 
-Especificación.
+-Especificación.
 
-Conceptualización.
+-Conceptualización.
 
-Formalización.
+-Formalización.
 
-Implementación.
+-Implementación.
 
-Mantenimiento.
+-Mantenimiento.
 
-Ventajas:
+                            Ventajas:
 
-Proceso detallado y bien documentado.
+-Proceso detallado y bien documentado.
 
-Permite la validación continua.
+-Permite la validación continua.
 
-Desventajas:
+                            Desventajas:
 
-Puede resultar compleja y demandante en tiempo.
+-Puede resultar compleja y demandante en tiempo.
 
-Requiere un equipo multidisciplinario.
+-Requiere un equipo multidisciplinario.
 
-Metodología NeOn
+                                                                         Metodología NeOn
 
 La metodología NeOn está orientada al desarrollo de redes de ontologías y la reutilización de conocimiento existente.
 
-Características:
+                            Características:
 
-Uso de ontologías previamente creadas.
+-Uso de ontologías previamente creadas.
 
-Soporte para ontologías distribuidas.
+-Soporte para ontologías distribuidas.
 
-Enfoque colaborativo.
+-Enfoque colaborativo.
 
-Ventajas:
+                             Ventajas:
 
-Reduce costos y tiempo de desarrollo.
+-Reduce costos y tiempo de desarrollo.
 
-Favorece la interoperabilidad.
+-Favorece la interoperabilidad.
 
-Desventajas:
+                           Desventajas:
 
-Mayor complejidad en la integración.
+-Mayor complejidad en la integración.
 
-Dependencia de ontologías externas.
+-Dependencia de ontologías externas.
 Aplicaciones de las Ontologías
 
-Las ontologías se aplican en diversos campos como:
+                           Las ontologías se aplican en diversos campos como:
 
-Web Semántica.
+-Web Semántica.
 
-Sistemas de recomendación.
+-Sistemas de recomendación.
 
-Inteligencia artificial.
+-Inteligencia artificial.
 
-Gestión del conocimiento.
+-Gestión del conocimiento.
 
-Educación y e-learning.
+-Educación y e-learning.
 
-Ciencias de la salud.
+-Ciencias de la salud.
