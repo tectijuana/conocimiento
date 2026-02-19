@@ -30,21 +30,20 @@ Una ontología es una forma estructurada de organizar y representar el conocimie
 Es comprender cómo se estructura y organiza el conocimiento mediante el uso de conceptos, relaciones y reglas, para representar de forma clara y coherente un dominio específico.
 
 ---
-
-## 3. Marco teórico 
+## 3. Marco teórico
 
 La ontología es un concepto que proviene de la filosofía y que, en el ámbito de las Tecnologías de la Información y la Comunicación (TIC) y la ciencia de la computación, se utiliza para describir una representación formal del conocimiento.
-Los atributos, que describen las características de los conceptos o individuos. Estas propiedades pueden referirse a datos simples, como nombres o números, o a relaciones más complejas.
-Los modelos formales y lógicos que permiten la inferencia de nuevo conocimiento. Elementos como las jerarquías facilitan la organización de los conceptos mediante relaciones de generalización y especialización, mientras que los axiomas y restricciones establecen reglas que garantizan la coherencia del modelo.
+
+Los atributos describen las características de los conceptos o individuos. Estas propiedades pueden referirse a datos simples, como nombres o números, o a relaciones más complejas.
+
+Los modelos formales y lógicos permiten la inferencia de nuevo conocimiento. Elementos como las jerarquías facilitan la organización de los conceptos mediante relaciones de generalización y especialización, mientras que los axiomas y restricciones establecen reglas que garantizan la coherencia del modelo.
+
 ---
 
 ## 4. Desarrollo
 La ontología es una rama central de la filosofía que se encarga de estudiar el ser, es decir, aquello que existe y la manera en que existe. No se limita solo a preguntar qué cosas hay en el mundo, sino que busca comprender qué significa que algo sea y cuáles son sus características más esenciales. Asi que la ontologia es en ciencia de la computación es una definición formal de tipos, propiedades, y relaciones entre entidades que realmente o fundamentalmente existen para un dominio de discusión en particular. Es una aplicación práctica de la ontología filosófica, con una taxonomía.
 
 Una ontología cataloga las variables necesitadas para algún conjunto de computación y establece las relaciones entre ellos.  En los campos de la inteligencia artificial, la Web Semántica, ingeniería de sistemas, ingeniería de software, informática biomédica, bibliotecología y arquitectura de la información se crean ontologías para limitar la complejidad y para organizar la información. La ontología puede entonces ser aplicada para resolver problemas.
-
-
-*(Si se incluyen imágenes o diagramas, deben estar dentro de la carpeta del proyecto y referenciados correctamente.)*
 
 ---
 
@@ -97,6 +96,39 @@ Ofrezca recomendaciones más acertadas
 
 En conclusión, la ontología ayuda a que los sistemas computacionales pasen de solo “buscar información” a entenderla y usarla de forma inteligente.
 
+
+```mermaid
+flowchart TB
+
+A[Ontología]
+
+A --> B[Ventajas]
+B --> B1[Claridad conceptual]
+B --> B2[Organización del conocimiento]
+B --> B3[Mejor toma de decisiones]
+
+A --> C[Limitaciones]
+C --> C1[Alto nivel de abstracción]
+C --> C2[Interpretación subjetiva]
+C --> C3[Complejidad en sistemas grandes]
+
+A --> D[Aplicaciones]
+D --> D1[Medicina]
+D --> D2[Inteligencia Artificial]
+D --> D3[Empresas y negocios]
+
+A --> E[Impacto]
+E --> E1[Identificar elementos esenciales]
+E --> E2[Relacionar conceptos]
+E --> E3[Decisiones más acertadas]
+
+A --> F[Ejemplo práctico]
+F --> F1[Tienda en línea]
+F1 --> F2[Sistema de recomendación]
+F2 --> F3[Comprensión de la intención del usuario]
+F2 --> F4[Recomendaciones inteligentes]
+```
+
 ---
 
 ## 6. Conclusiones
@@ -134,5 +166,6 @@ Declaro que esta investigación es de autoría propia y que las fuentes utilizad
 
 **Firma:**  
 [Ponce Molina Juan Carlos]
+
 **Fecha:**  
 [12/02/2026]
