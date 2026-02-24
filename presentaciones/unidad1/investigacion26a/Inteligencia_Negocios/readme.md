@@ -60,6 +60,87 @@ No obstante, esta integración también presenta limitaciones, como la dificulta
 
 En aplicaciones reales, esta relación tiene un impacto significativo en áreas como la gestión empresarial, el análisis financiero y los sistemas de recomendación, donde los sistemas computacionales juegan un papel clave en la toma de decisiones.
 
+```mermaid
+flowchart TD
+
+A["Ingeniería del Conocimiento (TIC-1015)"]
+A --> B["Investigación Individual"]
+B --> C["Inteligencia de Negocios y su relación con la Ingeniería del Conocimiento"]
+
+C --> D["Estudiante: Tome Salazar Karen Jocelyn"]
+C --> E["Docente: Rene Solis Reyes"]
+C --> F["Institución: Tecnológico Nacional de México"]
+
+C --> G["1. Introducción"]
+G --> G1["Organizaciones manejan grandes volúmenes de datos"]
+G --> G2["BI transforma datos en información útil"]
+G --> G3["Ingeniería del Conocimiento convierte información en conocimiento"]
+
+C --> H["2. Objetivo"]
+H --> H1["Analizar BI y su relación con Ingeniería del Conocimiento"]
+H --> H2["Identificar características, aplicaciones e impacto"]
+
+C --> I["3. Marco Teórico"]
+
+I --> I1["3.1 Inteligencia de Negocios"]
+I1 --> I11["Data Warehouse"]
+I1 --> I12["Procesos ETL"]
+I1 --> I13["OLAP"]
+I1 --> I14["Minería de Datos"]
+I1 --> I15["Apoya toma de decisiones"]
+
+I --> I2["3.2 Ingeniería del Conocimiento"]
+I2 --> I21["Adquisición del conocimiento"]
+I2 --> I22["Representación (reglas / ontologías)"]
+I2 --> I23["Razonamiento automático"]
+I2 --> I24["Mantenimiento del conocimiento"]
+
+I --> I3["3.3 Relación entre ambas"]
+I3 --> I31["BI analiza datos"]
+I3 --> I32["Ingeniería del Conocimiento estructura información"]
+I3 --> I33["Integración en sistemas inteligentes"]
+
+C --> J["Desarrollo"]
+J --> J1["BI identifica patrones y tendencias"]
+J --> J2["Ingeniería del Conocimiento crea reglas y modelos"]
+J --> J3["Ejemplo: Recomendación automática de productos"]
+J --> J4["Caso de uso: Sistema de apoyo a decisiones"]
+
+C --> K["Análisis y Discusión"]
+K --> K1["Mejora calidad de decisiones"]
+K --> K2["Reutilización del conocimiento"]
+K --> K3["Limitaciones: calidad de datos"]
+K --> K4["Costos e infraestructura"]
+
+C --> L["Ventajas"]
+L --> L1["Mejor toma de decisiones"]
+L --> L2["Automatización del conocimiento"]
+L --> L3["Gestión del conocimiento organizacional"]
+
+C --> M["Limitaciones"]
+M --> M1["Dependencia de calidad de datos"]
+M --> M2["Complejidad en adquisición del conocimiento"]
+M --> M3["Mantenimiento continuo"]
+
+C --> N["Conclusiones"]
+N --> N1["BI transforma datos en información"]
+N --> N2["Ingeniería del Conocimiento convierte información en conocimiento"]
+N --> N3["Fortalece sistemas inteligentes"]
+
+C --> O["Referencias"]
+O --> O1["Laudon & Laudon (2016)"]
+O --> O2["Studer, Benjamins & Fensel (1998)"]
+O --> O3["Turban, Sharda & Delen (2011)"]
+O --> O4["IBM Business Intelligence Documentation"]
+
+C --> P["Declaración de originalidad"]
+P --> P1["Autora: Karen Jocelyn Tome Salazar"]
+P --> P2["Fecha: 10/02/2026"]
+
+```
+
+
+
 
 Ventajas y limitaciones
 Ventajas
