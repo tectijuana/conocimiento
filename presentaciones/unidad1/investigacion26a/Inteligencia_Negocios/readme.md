@@ -139,8 +139,8 @@ P --> P2["Fecha: 10/02/2026"]
 
 ```
 
-
-
+Este diagrama muestra la estructura completa de la investigación, Explica cómo la Inteligencia de Negocios (BI) transforma grandes volúmenes de datos en información útil para la toma de decisiones, mediante herramientas como Data Warehouse, ETL, OLAP y minería de datos. A su vez, muestra que la Ingeniería del Conocimiento se encarga de convertir esa información en conocimiento estructurado (reglas, modelos u ontologías) que puede ser utilizado por sistemas inteligentes.
+El diagrama también representa la relación complementaria entre ambas disciplinas, destacando sus aplicaciones, ventajas, limitaciones y su impacto en los sistemas de apoyo a la toma de decisiones dentro de las organizaciones.
 
 Ventajas y limitaciones
 Ventajas
