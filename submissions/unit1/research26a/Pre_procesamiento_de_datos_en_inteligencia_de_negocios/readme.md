@@ -34,6 +34,8 @@ El pre-procesamiento de datos es una etapa fundamental dentro de la inteligencia
 
 Dentro de la Ingeniería del Conocimiento, el pre-procesamiento es esencial porque impacta directamente en la calidad del conocimiento que se extrae y representa. Un modelo, sistema experto o herramienta de análisis solo puede ser tan bueno como los datos que utiliza. El propósito de este trabajo es analizar los conceptos, procesos y aplicaciones del pre-procesamiento de datos en inteligencia de negocios, destacando su importancia en la toma de decisiones y en los sistemas computacionales modernos.
 
+ <img width="860" height="525" alt="image" src="https://github.com/user-attachments/assets/18625064-764b-4e9d-b00b-c0b70d126397" />
+
 ----------
 
 ## 2. Objetivo
@@ -68,8 +70,65 @@ El proceso de pre-procesamiento de datos consta de varias etapas que pueden vari
     
 -   **Reducción de datos:** Se disminuye el número de variables o registros para facilitar el análisis y mejorar el rendimiento de los modelos.
     
+| Etapa                                   | Descripción                                                                 | Ejemplos | Herramientas |
+|------------------------------------------|----------------------------------------------------------------------------|----------|---------------|
+| Comprensión y análisis de los datos     | Se realiza una exploración inicial para identificar la estructura, distribución, tipo de variables, calidad y posibles anomalías en el conjunto de datos. | Análisis de valores atípicos, revisión de tipos de datos, análisis de correlación | Python (Pandas), SQL, Power BI, Jupyter Notebook |
+| Limpieza de datos                       | Se corrigen inconsistencias, se eliminan registros erróneos o duplicados y se aplican técnicas para el tratamiento de valores atípicos y datos faltantes. | Eliminación de duplicados, imputación de valores nulos, corrección de formatos | OpenRefine, Python, Excel, SQL |
+| Integración de datos                    | Se unifican y consolidan datos provenientes de múltiples fuentes, garantizando coherencia, compatibilidad y consistencia semántica. | Unión de tablas, consolidación de bases de datos, integración de APIs | Procesos ETL, Talend, Pentaho, SSIS |
+| Transformación de datos                 | Se modifican los datos mediante técnicas matemáticas y estadísticas para adecuarlos a los requisitos de los modelos analíticos y algoritmos de aprendizaje. | Normalización Min-Max, estandarización (Z-score), codificación One-Hot | Scikit-learn, Python, R |
+| Reducción de datos                      | Se optimiza el volumen y la dimensionalidad del conjunto de datos para mejorar la eficiencia computacional y el rendimiento de los modelos predictivos. | Selección de características, PCA, muestreo de datos | Scikit-learn, WEKA, RapidMiner |
 
-Por ejemplo, en una empresa que analiza el comportamiento de clientes, el pre-procesamiento permite unificar datos de ventas, marketing y atención al cliente, logrando una visión más completa y confiable para la toma de decisiones estratégicas.
+
+```mermaid
+flowchart TB
+ subgraph s1["ETAPA 1: Comprensión de los datos"]
+        B["Exploración inicial<br>estructura / tipos / calidad"]
+  end
+ subgraph s2["ETAPA 2: Limpieza de datos"]
+        C3["Tratar valores nulos"]
+        C2["Corregir errores"]
+        C1["Eliminar duplicados"]
+  end
+ subgraph s3["ETAPA 3: Integración de datos"]
+        D3["Procesos ETL"]
+        D2["Consolidación de fuentes"]
+        D1["Unión de tablas"]
+  end
+ subgraph s4["ETAPA 4: Transformación de datos"]
+        E3["Codificación de variables"]
+        E2["Estandarización"]
+        E1["Normalización"]
+  end
+ subgraph s5["ETAPA 5: Reducción de datos"]
+        F3["Muestreo de datos"]
+        F2["PCA"]
+        F1["Selección de características"]
+  end
+    A["Fuentes de datos<br>BD internas / APIs / Archivos"] --> B
+    B --> C1 & C2 & C3
+    C1 --> D1
+    C2 --> D1
+    C3 --> D1
+    D1 --> D2
+    D2 --> D3
+    D3 --> E1 & E2 & E3
+    E1 --> F1
+    E2 --> F2
+    E3 --> F3
+    F1 --> G["Datos preparados y de calidad"]
+    F2 --> G
+    F3 --> G
+    G --> H["Análisis / Modelos BI"]
+    H --> I["Toma de decisiones"]
+```
+
+
+ 
+Por ejemplo, en una empresa que analiza el comportamiento de sus clientes, el preprocesamiento de datos permite limpiar, organizar y transformar la información antes de realizar cualquier análisis. Esto incluye la eliminación de datos duplicados, la corrección de errores, el manejo de valores faltantes y la estandarización de formatos, lo que garantiza resultados más precisos y confiables.
+
+En entornos empresariales, el preprocesamiento de datos suele llevarse a cabo mediante procesos ETL (Extract, Transform, Load). Para ello, se utilizan herramientas como SQL Server Integration Services (SSIS), Talend o Pentaho, así como lenguajes de programación como Python, apoyado en bibliotecas especializadas como Pandas y NumPy.
+
+
 
 ----------
 
