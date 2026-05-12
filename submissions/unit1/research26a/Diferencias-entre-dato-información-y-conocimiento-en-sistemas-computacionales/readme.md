@@ -100,30 +100,89 @@ En sistemas computacionales, los tres primeros niveles son los más utilizados.
 ---
 
 ## 4. Desarrollo
+La transformación de datos en conocimiento es un proceso que permite convertir registros crudos en decisiones estratégicas dentro de los sistemas computacionales. Este proceso es clave en Inteligencia Artificial, sistemas empresariales y análisis de datos.
 
-Comparación entre dato, información y conocimiento
+Primero se capturan los datos, después se procesan para generar información y finalmente se analizan para producir conocimiento útil.
 
-### Ejemplo aplicado en un sistema de ventas
+--------------------------------------------------
+TABLA 1 – Comparativa general
+--------------------------------------------------
 
-1.  **Datos:**
-    
-    -   15
-        
-    -   Producto X
-        
-    -   $200
-        
-2.  **Información:**
-    
-    -   Se vendieron 15 unidades del Producto X a $200 cada una.
-        
-3.  **Conocimiento:**
-    
-    -   El Producto X tiene alta demanda; se debe aumentar inventario.
+Criterio        | Dato            | Información              | Conocimiento
+--------------- | --------------- | ------------------------ | --------------
+Naturaleza      | Crudo           | Procesado                | Interpretado
+Contexto        | Sin contexto    | Con contexto             | Con experiencia
+Utilidad        | Registro        | Consulta                 | Decisión
+Ejemplo         | 200             | 200 ventas hoy           | Aumentar stock
+
+--------------------------------------------------
+TABLA 2 – Ejemplo en sistema de ventas
+--------------------------------------------------
+
+Nivel        | Elemento                        | Resultado
+------------ | ------------------------------- | -------------------------
+Dato         | 15 / Producto X / $300          | Registro
+Información  | 15 unidades vendidas            | Resumen diario
+Conocimiento | Alta demanda                    | Reabastecer inventario
+
+--------------------------------------------------
+TABLA 3 – Aplicación en IA
+--------------------------------------------------
+
+Nivel        | Fuente              | Resultado
+------------ | ------------------- | ----------------------------
+Datos        | Clics de usuario    | Historial
+Información  | Categorías vistas   | Preferencias
+Conocimiento | Recomendaciones     | Personalización
+
+--------------------------------------------------
+DIAGRAMA 1 – Flujo Datos a Conocimiento
+--------------------------------------------------
+
+```mermaid
+flowchart LR
+A[Datos]
+B[Procesamiento]
+C[Información]
+D[Análisis]
+E[Conocimiento]
+F[Decisiones]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+```
         
 
 ----------
+---
 
+### Sistema de Inteligencia Artificial
+
+```mermaid
+flowchart TD
+A[Interacciones del Usuario] --> B[Base de Datos]
+B --> C[Procesamiento Algorítmico]
+C --> D[Patrones Detectados]
+D --> E[Modelo de Recomendación]
+E --> F[Recomendaciones Personalizadas]
+```
+
+---
+
+### Arquitectura de Ingeniería del Conocimiento
+
+```mermaid
+flowchart LR
+A[Fuentes de Datos] --> B[Base de Conocimiento]
+B --> C[Motor de Inferencia]
+C --> D[Reglas y Heurísticas]
+D --> E[Decisiones]
+E --> F[Retroalimentación]
+F --> B
+```
 ### Caso de uso en Inteligencia Artificial
 
 En un sistema de recomendación:
