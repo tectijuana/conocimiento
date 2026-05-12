@@ -40,19 +40,44 @@ orientados a la resolución de problemas.
 ---
 
 ## 3. Marco teórico
-La Ingeniería del Conocimiento se define como el conjunto de métodos, técnicas y herramientas utilizadas para capturar el conocimiento humano y
-transformarlo en representaciones formales que puedan ser procesadas por sistemas computacionales.
-Este conocimiento puede ser explícito (documentado) o tácito (experiencia del experto).
+La Ingeniería del Conocimiento es la disciplina que estudia y aplica métodos, técnicas y herramientas para capturar, estructurar y representar el conocimiento humano de forma que pueda ser procesado por sistemas computacionales. Su objetivo principal es transformar experiencia y criterios expertos en modelos formales que permitan razonar, inferir y apoyar la toma de decisiones.
 
-Entre los conceptos fundamentales se encuentran:
+El conocimiento puede clasificarse en:
 
-Conocimiento: Información interpretada y contextualizada que permite tomar decisiones.
+Conocimiento explícito: Documentado, estructurado y fácil de comunicar.
 
-Sistemas expertos: Programas que emulan el razonamiento de un experto humano en un dominio específico.
+Conocimiento tácito: Basado en experiencia, intuición y práctica del experto.
 
-Base de conocimiento: Repositorio estructurado que almacena hechos, reglas y relaciones.
+Conceptos fundamentales:
 
-Motor de inferencia: Componente que aplica reglas lógicas para deducir nuevas conclusiones.
+Conocimiento
+Es información interpretada dentro de un contexto, que permite comprender situaciones y tomar decisiones fundamentadas.
+
+Sistemas expertos
+Son programas que emulan el razonamiento de un especialista humano en un dominio específico mediante reglas, hechos y mecanismos de inferencia.
+
+Base de conocimiento
+Repositorio estructurado donde se almacenan hechos, reglas, relaciones y modelos utilizados por el sistema.
+
+Motor de inferencia
+Componente que aplica lógica sobre la base de conocimiento para generar conclusiones, diagnósticos o recomendaciones.
+
+```mermaid
+flowchart TD
+    U[Usuario] --> I[Interfaz]
+    I --> MI[Motor de inferencia]
+    MI --> BC[Base de conocimiento]
+    MI --> BF[Base de hechos]
+    MI --> R[Resultados / Recomendación]
+```
+## Tabla comparativa — Componentes de sistemas basados en conocimiento
+
+| Elemento | Función | Impacto en decisiones |
+|----------|----------|----------------------|
+| Base de conocimiento | Almacena reglas y hechos | Reduce ambigüedad |
+| Motor de inferencia | Aplica lógica | Genera conclusiones consistentes |
+| Sistemas expertos | Simulan razonamiento humano | Apoyo especializado |
+| Modelos de reglas | Estructuran criterios | Decisiones repetibles |
 
 ---
 
