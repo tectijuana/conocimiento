@@ -19,11 +19,11 @@
 Gabriel Celis Gutierrez
 
 ### Docente
- DIEGO SAUL VASQUEZ RIOS
+Rene Solis Reyes
 
 ### Asignatura
 
-TICS APLICADA A LA GESTION EMPRESARIAL
+Ingeniería del Conocimiento (TIC-1015)
 
 ### Institución
 
@@ -39,7 +39,7 @@ Tecnológico Nacional de México
 
 La representación del conocimiento es un área esencial dentro de la Inteligencia Artificial y la Ingeniería del Conocimiento, ya que permite que los sistemas computacionales almacenen, organicen y utilicen información sobre el mundo real para razonar y tomar decisiones. No se trata únicamente de guardar datos, sino de estructurarlos de forma que puedan interpretarse, relacionarse y generar nuevo conocimiento.
 
-Existen diversas formas de representar el conocimiento, y cada una responde a diferentes necesidades según el tipo de problema, la complejidad del dominio y el tipo de razonamiento que se requiere. En esta investigación analiza las principales formas de representación del conocimiento y su importancia en el diseño de sistemas inteligentes.
+Existen diversas formas de representar el conocimiento, y cada una responde a diferentes necesidades según el tipo de problema, la complejidad del dominio y el tipo de razonamiento que se requiere. En esta investigación se analizan las principales formas de representación del conocimiento y su importancia en el diseño de sistemas inteligentes.
 
 ----------
 
@@ -56,7 +56,7 @@ Analizar las diferentes formas de representación del conocimiento en sistemas c
 
 ## 3. Marco teórico
 [](https://github.com/PolloPremium/conocimiento/blob/main/submissions/unit1/research26a/templete.md#3-marco-te%C3%B3rico)
-La representación del conocimiento es un área fundamental de la Inteligencia Artificial y la Ingeniería del Conocimiento que busca estructurar la información de manera que los sistemas computacionales puedan interpretarla y usarla para razonar. No se limita a almacenar datos, sino que organiza hechos, conceptos y relaciones con significado.En  si estos fundamentos teóricos permiten que los sistemas inteligentes simulen procesos de razonamiento humano y puedan aplicarse en áreas como sistemas expertos, asistentes virtuales y sistemas de recomendación.
+La representación del conocimiento es un área fundamental de la Inteligencia Artificial y la Ingeniería del Conocimiento que busca estructurar la información de manera que los sistemas computacionales puedan interpretarla y usarla para razonar. No se limita a almacenar datos, sino que organiza hechos, conceptos y relaciones con significado. En sí, estos fundamentos teóricos permiten que los sistemas inteligentes simulen procesos de razonamiento humano y puedan aplicarse en áreas como sistemas expertos, asistentes virtuales y sistemas de recomendación.
 
 El conocimiento puede clasificarse en declarativo (hechos), procedural (cómo hacer algo), heurístico (basado en la experiencia) y estructural (relaciones entre conceptos). Para que una computadora pueda utilizarlo, este debe expresarse mediante modelos formales que permitan su manipulación lógica.
 
@@ -70,7 +70,7 @@ El conocimiento puede clasificarse en declarativo (hechos), procedural (cómo ha
 
 Para iniciar es importante saber que la representación del conocimiento es la forma en que los sistemas de IA almacenan, organizan y utilizan la información sobre el universo para razonar y tomar decisiones. Esto puede incluir datos, hechos, y relaciones entre ellos. El propósito de representar el conocimiento es la comprensión y manipulación de información compleja, permitiendo que las computadoras realicen inferencias y resuelvan problemas.
 
-El conocimiento se puede  definir como el conjunto de información, hechos, habilidades y experiencias que una persona o entidad adquiere a través del aprendizaje, la observación o la reflexión. Este se organiza y procesa mentalmente para ser utilizado en la toma de decisiones, resolución de problemas y comprensión del entorno. Dentro de la Ingeniería del Conocimiento, esta representación se apoya en modelos estructurados que permiten describir objetos, relaciones, reglas y propiedades del dominio de estudio.
+El conocimiento se puede definir como el conjunto de información, hechos, habilidades y experiencias que una persona o entidad adquiere a través del aprendizaje, la observación o la reflexión. Este se organiza y procesa mentalmente para ser utilizado en la toma de decisiones, resolución de problemas y comprensión del entorno. Dentro de la Ingeniería del Conocimiento, esta representación se apoya en modelos estructurados que permiten describir objetos, relaciones, reglas y propiedades del dominio de estudio.
 
 ![Modelo de datos Power Pivot2](https://msmk.university/wp-content/uploads/2024/11/Knowledge-Model.jpg)
 
@@ -81,7 +81,7 @@ En la práctica, la Ingeniería del Conocimiento sigue una serie de pasos:
 **Adquisición del conocimiento:** Se recopila la información del dominio, ya sea de un experto o mediante investigación. El objetivo es entender bien el tema, aún sin representarlo formalmente.
 
 **Representación del conocimiento:** Se elige cómo se organizará el conocimiento (reglas, redes semánticas, marcos, etc.) y luego se construye la base de conocimiento de forma estructurada.
-**Desarrollo del motor de inferencia:** Desarrollo del motor de inferencia:Se diseñan e implementan los algoritmos que permitirán al sistema razonar y obtener respuestas a partir de la base de conocimiento.
+**Desarrollo del motor de inferencia:** Se diseñan e implementan los algoritmos que permitirán al sistema razonar y obtener respuestas a partir de la base de conocimiento.
 
 **Validación y verificación:** Se prueba el sistema para comprobar que funciona correctamente y se ajustan tanto el conocimiento como el motor de inferencia si es necesario.
 **Implementación y mantenimiento:** Se crea la interfaz para los usuarios, se integra el sistema en su entorno real y se mantiene actualizado con mejoras y correcciones.
@@ -138,13 +138,13 @@ Consiste en buscar y seleccionar la información relevante dentro de la base de 
 
 Es clave cuando el sistema maneja grandes volúmenes de información, ya que debe saber qué es importante y qué no.
 
- Ejemplo: De todos los datos médicos almacenados, el sistema usa solo los que coinciden con los síntomas del paciente.
+Ejemplo: De todos los datos médicos almacenados, el sistema usa solo los que coinciden con los síntomas del paciente.
 
 
 
 **Razonamiento**
 
-Es la capacidad del sistema para obtener conclusiones nuevasa partir del conocimiento que ya posee.
+Es la capacidad del sistema para obtener conclusiones nuevas a partir del conocimiento que ya posee.
 
 No se limita a repetir información, sino que infiere cosas que no estaban explícitas.
 
@@ -170,7 +170,11 @@ En aplicaciones reales, como  asistentes virtuales o sistemas de recomendación,
 
 [](https://github.com/PolloPremium/conocimiento/blob/main/submissions/unit1/research26a/templete.md#6-conclusiones)
 
-Las distintas formas de representación del conocimiento permiten modelar la realidad desde diferentes perspectivas. No existe un único método ideal, sino que su elección depende del problema a resolver. Comprender estas técnicas es fundamental para desarrollar sistemas inteligentes capaces de analizar información, aprender y tomar decisiones de manera eficiente.
+Las diferentes formas de representación del conocimiento permiten modelar la realidad desde múltiples perspectivas, facilitando que los sistemas computacionales puedan razonar, aprender y tomar decisiones. No existe un único método ideal, ya que cada técnica presenta ventajas y limitaciones dependiendo del problema que se desea resolver.
+
+La representación del conocimiento constituye un elemento fundamental en el desarrollo de sistemas inteligentes, especialmente en áreas como sistemas expertos, asistentes virtuales, análisis de datos y gestión empresarial. Además, las tendencias actuales apuntan hacia la integración de modelos simbólicos con técnicas de aprendizaje automático, lo que permitirá construir sistemas más inteligentes, adaptables y explicables.
+
+Comprender estas técnicas resulta esencial para los profesionales de tecnologías de la información, ya que contribuye al diseño de soluciones innovadoras que mejoran la eficiencia organizacional y la toma de decisiones en diversos contextos.
 
 ----------
 
