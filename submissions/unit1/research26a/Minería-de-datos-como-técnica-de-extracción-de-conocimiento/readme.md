@@ -25,6 +25,20 @@ Tecnológico Nacional de México
 
 *La minería de datos es una disciplina fundamental dentro de la       Ingeniería del Conocimiento, ya que permite transformar grandes       volúmenes de datos en información útil para la toma de decisiones. En    la actualidad, las organizaciones generan enormes cantidades de datos    provenientes de sistemas transaccionales, redes sociales, sensores,      plataformas digitales y procesos empresariales. Sin embargo, estos       datos por sí solos carecen de valor si no son analizados e       interpretados adecuadamente. En este contexto, la minería de datos       surge como una técnica clave para la extracción de conocimiento,       utilizando métodos estadísticos, algoritmos de aprendizaje automático    y herramientas de análisis avanzado. Su importancia radica en la       capacidad de descubrir patrones ocultos, tendencias, correlaciones y     comportamientos que no son evidentes a simple vista. El propósito de     esta investigación es analizar la minería de datos como técnica de       extracción de conocimiento, abordando sus fundamentos teóricos,       procesos, aplicaciones y su impacto dentro de los sistemas basados en    conocimiento.*
 
+<p align="center">
+  <img src="0718-5006-formuniv-12-04-00055-gf1.jpg" alt="Proceso KDD">
+</p>
+
+### Diagrama del Proceso KDD
+
+```mermaid
+flowchart LR
+    A[Selección de Datos] --> B[Preprocesamiento]
+    B --> C[Transformación]
+    C --> D[Minería de Datos]
+    D --> E[Interpretación y Evaluación]
+    E --> F[Conocimiento]
+```
 ---
 
 ## 2. Objetivo
@@ -44,26 +58,28 @@ La minería de datos (Data Mining) es el proceso de descubrir conocimiento útil
 
 **Conocimiento:** Interpretación de la información que permite la toma de decisiones.
 
-**Proceso KDD (Knowledge Discovery in Databases)**
+
 
 La minería de datos forma parte del proceso KDD, el cual incluye las siguientes
 
-**Selección de datos :** Identificación de fuentes relevantes
-
-**Preprocesamiento :** Limpieza y depuración de datos
-
-**Transformación :** Preparación de datos para modelado
-
-**Minería de datos :** Aplicación de algoritmos
+| Etapa                | Descripción                                                                 | Objetivo principal                          |
+|----------------------|-----------------------------------------------------------------------------|---------------------------------------------|
+| Selección de datos   | Identificación y recopilación de fuentes de datos relevantes                | Obtener datos útiles para el análisis       |
+| Preprocesamiento     | Limpieza, eliminación de ruido y datos incompletos                          | Mejorar la calidad de los datos             |
+| Transformación       | Conversión y preparación de datos para el modelado                          | Facilitar el uso de algoritmos              |
+| Minería de datos     | Aplicación de técnicas y algoritmos inteligentes                            | Descubrir patrones y conocimiento           |
+| Interpretación       | Análisis de resultados y validación del conocimiento obtenido               | Apoyar la toma de decisiones                | Aplicación de algoritmos
  
 
 Técnicas principales de minería de datos
 
-**Clasificación:** Asigna datos a categorías.
-**Regresión:** Predice valores continuos.
-**Clustering (agrupamiento):** Agrupa datos similares.
- **Reglas de asociación:** Detecta relaciones entre variables.
-**Detección de anomalías:** Identifica comportamientos inusuales.
+| Técnica                  | Descripción                                              | Ejemplo de uso                          |
+|--------------------------|----------------------------------------------------------|-----------------------------------------|
+| Clasificación            | Asigna datos a categorías predefinidas                   | Correos spam / no spam                  |
+| Regresión                | Predice valores numéricos continuos                      | Pronóstico de ventas                    |
+| Clustering               | Agrupa datos por similitud                               | Segmentación de clientes                |
+| Reglas de asociación     | Detecta relaciones entre variables                       | Productos comprados juntos              |
+| Detección de anomalías   | Identifica comportamientos inusuales  
 
 ---
 
